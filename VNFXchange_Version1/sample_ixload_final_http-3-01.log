@@ -1,0 +1,825 @@
+
+################################################################################
+## 09/18/2017 18:21:20: Log Start PID=7148
+################################################################################
+
+*Debug 09/18 18:21:20.707 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Run Request' in  state 'Listening'
+*Debug 09/18 18:21:20.707 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: STANDBY', EVENT RECEIVED:  Timeline Controller: Standby timer expired
+  NEW STATE: 'Timeline Controller: STANDBY', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:21:20.707 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Listening'
+*Debug 09/18 18:21:20.709 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=SendRunRequest guard=null' in state 'Listening'
+*Debug 09/18 18:21:20.710 ixKseCommunicator HTTPClient1: Sending on ports [(1,1,5)]:'<ixlagent-run-request request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'.
+*Debug 09/18 18:21:20.710 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Run Request' Result='Handled' in state 'Listening'
+*Debug 09/18 18:21:20.710 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Run Request'
+*Debug 09/18 18:21:20.710 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STARTING TIMER-- for state'Run Request'
+*Debug 09/18 18:21:20.710 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Listening' to 'Run Request' after handling event 'Run Request'
+*Debug 09/18 18:21:20.749 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><started/></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:20.750 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><started/></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:20.753 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Start Run Response' in state 'Run Request'
+*Debug 09/18 18:21:20.753 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Start Run Response' in  state 'Run Request'
+*Debug 09/18 18:21:20.753 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STOPPING TIMER-- for state'Run Request'
+*Debug 09/18 18:21:20.755 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Run Request'
+*Debug 09/18 18:21:20.755 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=GotStartRunResponse guard=CheckIfAllPortsDone' in state 'Run Request'
+*Debug 09/18 18:21:20.755 Timeline Controller: Timeline1 activityCallback from agent HTTPClient1 - error = 
+*Debug 09/18 18:21:20.755 Timeline Controller: Timeline1 asyncActivityList = []
+*Debug 09/18 18:21:20.756 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: START TRAFFIC              eventId =  Timeline Controller: All activities started traffic description = None details = None status = None
+*Debug 09/18 18:21:20.756 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Start Run Response' Result='Handled' in state 'Run Request'
+*Debug 09/18 18:21:20.756 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Running'
+*Debug 09/18 18:21:20.756 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STARTING TIMER-- for state'Running'
+*Debug 09/18 18:21:20.756 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Run Request' to 'Running' after handling event 'Start Run Response'
+*Debug 09/18 18:21:20.808 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:21:20.808 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: All activities started traffic
+*Debug 09/18 18:21:20.808 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: All activities started traffic
+*Debug 09/18 18:21:20.809 Timeline Controller: Timeline Controller FSM: EXIT Action for the State: START TRAFFIC :: Timeline1 
+*Debug 09/18 18:21:20.809 Timeline Controller: Timeline1 Clearing the Async Timer timer (1505739440.647, 0, <bound method ixTimelineController.asyncCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:21:20.809 Timeline Controller: Timeline1 getIterationTime() = 55
+*Debug 09/18 18:21:20.809 Timeline Controller: Timeline1 Created Run Stopped Check Timer with the timer Run Duration = 44 run stopped check timer id = (1505739124.81, 0, <bound method ixTimelineController.runStoppedCheckDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:21:20.809 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: All activities started traffic
+*Debug 09/18 18:21:20.809 ixFSM:   *** FSM Timeline Timeline1 --EXITING STATE--:  Timeline Controller: START TRAFFIC             
+*Debug 09/18 18:21:20.811 ixFSM:   *** FSM Timeline Timeline1 --ENTERING STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:21:20.811 Timeline Controller: Timeline Controller FSM: ENTRY Action for the State: RUNNING  :: Timeline1 
+*Debug 09/18 18:21:20.811 Timeline Controller: startRunning Timeline1
+*Debug 09/18 18:21:20.811 Timeline Controller: Timeline1 registerActivityCallback HTTPClient1 - <Lib.TestEnvelope.ixActivity.ixActivity object at 0x2454F2F0>
+*Debug 09/18 18:21:20.811 Timeline Controller: Timeline1 asyncActivityList = [HTTPClient1]
+*Debug 09/18 18:21:20.812 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: START TRAFFIC', EVENT RECEIVED:  Timeline Controller: All activities started traffic
+  NEW STATE: 'Timeline Controller: START TRAFFIC', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:21:21.743 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear-up/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:21.743 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear-up/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:21.743 Traffic1 HTTPClient1: Got Run update: <transition><stage><linear-up/></stage></transition> from port 0
+*Debug 09/18 18:21:23.486 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: RUNNING                    eventId =  Timeline Controller: Received run state update description = None details = None status = None
+*Debug 09/18 18:21:23.512 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:21:23.512 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: Received run state update
+*Debug 09/18 18:21:23.512 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:21:23.513 Timeline Controller: statViewerMarkers took 0.001 s
+*Debug 09/18 18:21:23.513 Timeline Controller: _publishEvent took 0.000 s
+*Debug 09/18 18:21:23.513 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:21:23.513 ixFSM:   *** FSM Timeline Timeline1 --INTERNAL EVENT. STAYING IN STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:21:23.513 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: START TRAFFIC', EVENT RECEIVED:  Timeline Controller: Received run state update
+  NEW STATE: 'Linear Up', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:21:35.723 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:35.724 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:21:35.726 Traffic1 HTTPClient1: Got Run update: <transition><stage><linear/></stage></transition> from port 0
+*Debug 09/18 18:21:38.486 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: RUNNING                    eventId =  Timeline Controller: Received run state update description = None details = None status = None
+*Debug 09/18 18:21:38.515 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:21:38.515 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: Received run state update
+*Debug 09/18 18:21:38.515 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:21:38.515 Timeline Controller: statViewerMarkers took 0.000 s
+*Debug 09/18 18:21:38.515 Timeline Controller: _publishEvent took 0.000 s
+*Debug 09/18 18:21:38.516 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:21:38.516 ixFSM:   *** FSM Timeline Timeline1 --INTERNAL EVENT. STAYING IN STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:21:38.516 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: START TRAFFIC', EVENT RECEIVED:  Timeline Controller: Received run state update
+  NEW STATE: 'Linear', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:05.134 Timeline Controller: Timeline1 runStoppedCheckDurationExpired() (1505739124.81, 0, <bound method ixTimelineController.runStoppedCheckDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:05.770 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear-down/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:22:05.772 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><transition><stage><linear-down/></stage></transition></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:22:05.773 Traffic1 HTTPClient1: Got Run update: <transition><stage><linear-down/></stage></transition> from port 0
+*Debug 09/18 18:22:07.486 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: RUNNING                    eventId =  Timeline Controller: Received run state update description = None details = None status = None
+*Debug 09/18 18:22:07.516 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:07.516 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: Received run state update
+*Debug 09/18 18:22:07.516 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:22:07.516 Timeline Controller: statViewerMarkers took 0.001 s
+*Debug 09/18 18:22:07.516 Timeline Controller: _publishEvent took 0.000 s
+*Debug 09/18 18:22:07.516 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:22:07.516 ixFSM:   *** FSM Timeline Timeline1 --INTERNAL EVENT. STAYING IN STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:22:07.516 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: START TRAFFIC', EVENT RECEIVED:  Timeline Controller: Received run state update
+  NEW STATE: 'Linear Down', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:18.486 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: RUNNING                    eventId =  Timeline Controller: Received run state update description = None details = None status = None
+*Debug 09/18 18:22:18.486 ixRunStateStatPlugin: The HTTPClient1@Traffic1@Network1, had some pending users while stopping. statName = State/HTTPClient1:Pending Users, statValue = 179
+*Debug 09/18 18:22:18.517 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:18.517 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: Received run state update
+*Debug 09/18 18:22:18.517 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:22:18.519 Timeline Controller: statViewerMarkers took 0.000 s
+*Debug 09/18 18:22:18.519 Timeline Controller: _publishEvent took 0.000 s
+*Debug 09/18 18:22:18.519 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: Received run state update
+*Debug 09/18 18:22:18.519 ixFSM:   *** FSM Timeline Timeline1 --INTERNAL EVENT. STAYING IN STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:22:18.519 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: START TRAFFIC', EVENT RECEIVED:  Timeline Controller: Received run state update
+  NEW STATE: 'Idle', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:20.789 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><completed-cleanly/></ixlagent-run-preliminary-response><ixlagent-run-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:20.789 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-preliminary-response request-id="1505739043" activityName="HTTPClient1" port-id="0"><completed-cleanly/></ixlagent-run-preliminary-response>'
+*Debug 09/18 18:22:20.790 Traffic1 HTTPClient1: Got Run update: <completed-cleanly/> from port 0
+*Debug 09/18 18:22:20.792 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-run-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:20.792 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Run Response' in state 'Running'
+*Debug 09/18 18:22:20.793 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Run Response' in  state 'Running'
+*Debug 09/18 18:22:20.795 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STOPPING TIMER-- for state'Running'
+*Debug 09/18 18:22:20.795 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Running'
+*Debug 09/18 18:22:20.795 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=GotRunResponse guard=CheckIfAllPortsDone' in state 'Running'
+*Debug 09/18 18:22:20.795 Timeline Controller: Timeline1 activityCallback from agent HTTPClient1 - error = 
+*Debug 09/18 18:22:20.796 Timeline Controller: Timeline1 asyncActivityList = []
+*Debug 09/18 18:22:20.796 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: RUNNING                    eventId =  Timeline Controller: End of iteration received description = None details = None status = None
+*Debug 09/18 18:22:20.796 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Run Response' Result='Handled' in state 'Running'
+*Debug 09/18 18:22:20.796 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Listening'
+*Debug 09/18 18:22:20.796 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Running' to 'Listening' after handling event 'Run Response'
+*Debug 09/18 18:22:20.819 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:20.819 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: End of iteration received
+*Debug 09/18 18:22:20.819 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: End of iteration received
+*Debug 09/18 18:22:20.821 Timeline Controller: Timeline Controller FSM: EXIT Action for the State: RUNNING  :: Timeline1 
+*Debug 09/18 18:22:20.821 Timeline Controller: stopRunning Timeline1
+*Debug 09/18 18:22:20.821 Timeline Controller: statViewerMarkers took 0.000 s
+*Debug 09/18 18:22:20.821 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: End of iteration received
+*Debug 09/18 18:22:20.821 ixFSM:   *** FSM Timeline Timeline1 --EXITING STATE--:  Timeline Controller: RUNNING                   
+*Debug 09/18 18:22:20.821 ixFSM:   *** FSM Timeline Timeline1 --ENTERING STATE--:  Timeline Controller: STOP TRAFFIC              
+*Debug 09/18 18:22:20.822 Timeline Controller: Timeline Controller FSM: ENTRY Action for the State: STOP TRAFFIC :: Timeline1 
+*Debug 09/18 18:22:20.822 Timeline Controller: Timeline1 Clearing the watch dog timer (1505739754.141, 0, <bound method ixTimelineController.watchDogIterationDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:20.822 Timeline Controller: Timeline1 Created Async Timer with the timer Run Duration = 360 async timer id = (1505739500.822, 0, <bound method ixTimelineController.asyncCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:20.822 Timeline Controller: stopTraffic Timeline1
+*Debug 09/18 18:22:20.822 Timeline Controller: Timeline1 registerActivityCallback HTTPClient1 - <Lib.TestEnvelope.ixActivity.ixActivity object at 0x2454F2F0>
+*Debug 09/18 18:22:20.823 Timeline Controller: Timeline1 asyncActivityList = [HTTPClient1]
+*Debug 09/18 18:22:20.823 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Stop Request' in state 'Listening'
+*Debug 09/18 18:22:20.823 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Stop Request' in  state 'Listening'
+*Debug 09/18 18:22:20.825 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=AlreadyStopped guard=null' in state 'Listening'
+*Debug 09/18 18:22:20.825 Timeline Controller: Timeline1 activityCallback from agent HTTPClient1 - error = 
+*Debug 09/18 18:22:20.825 Timeline Controller: Timeline1 asyncActivityList = []
+*Debug 09/18 18:22:20.825 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: STOP TRAFFIC               eventId =  Timeline Controller: All activities stopped traffic description = None details = None status = None
+*Debug 09/18 18:22:20.825 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Stop Request' Result='Handled' in state 'Listening'
+*Debug 09/18 18:22:20.825 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --INTERNAL TRANSITION-- in state 'Listening' at level 0
+*Debug 09/18 18:22:20.924 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:20.924 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: All activities stopped traffic
+*Debug 09/18 18:22:20.924 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: All activities stopped traffic
+*Debug 09/18 18:22:20.924 Timeline Controller: Timeline Controller FSM: EXIT Action for the State: STOP TRAFFIC :: Timeline1 
+*Debug 09/18 18:22:20.924 Timeline Controller: Timeline1 Clearing the Async Timer timer (1505739500.822, 0, <bound method ixTimelineController.asyncCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:20.924 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: All activities stopped traffic
+*Debug 09/18 18:22:20.924 ixFSM:   *** FSM Timeline Timeline1 --EXITING STATE--:  Timeline Controller: STOP TRAFFIC              
+*Debug 09/18 18:22:20.924 ixFSM:   *** FSM Timeline Timeline1 --ENTERING STATE--:  Timeline Controller: STOP LISTENING            
+*Debug 09/18 18:22:20.926 Timeline Controller: Timeline Controller FSM: ENTRY Action for the State: STOP LISTENING :: Timeline1 
+*Debug 09/18 18:22:20.926 Timeline Controller: Timeline1 Created Async Timer with the timer Run Duration = 360 async timer id = (1505739500.926, 0, <bound method ixTimelineController.asyncCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:20.926 Timeline Controller: stopListening Timeline1
+*Debug 09/18 18:22:20.927 Timeline Controller: Timeline1 registerActivityCallback HTTPClient1 - <Lib.TestEnvelope.ixActivity.ixActivity object at 0x2454F2F0>
+*Debug 09/18 18:22:20.927 Timeline Controller: Timeline1 asyncActivityList = [HTTPClient1]
+*Debug 09/18 18:22:20.927 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Stop Listening Request' in state 'Listening'
+*Debug 09/18 18:22:20.927 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: STOP TRAFFIC', EVENT RECEIVED:  Timeline Controller: All activities stopped traffic
+  NEW STATE: 'Timeline Controller: STOP TRAFFIC', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:20.927 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Stop Listening Request' in  state 'Listening'
+*Debug 09/18 18:22:20.928 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Listening'
+*Debug 09/18 18:22:20.928 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=SendStopListeningRequest guard=null' in state 'Listening'
+*Debug 09/18 18:22:20.930 ixKseCommunicator HTTPClient1: Sending on ports [(1,1,5)]:'<ixlagent-stop-listening-request request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'.
+*Debug 09/18 18:22:20.930 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Stop Listening Request' Result='Handled' in state 'Listening'
+*Debug 09/18 18:22:20.930 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Stop Listening Request'
+*Debug 09/18 18:22:20.930 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STARTING TIMER-- for state'Stop Listening Request'
+*Debug 09/18 18:22:20.930 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Listening' to 'Stop Listening Request' after handling event 'Stop Listening Request'
+*Debug 09/18 18:22:20.947 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-stop-listening-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:20.947 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-stop-listening-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:20.948 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Stop Listening Response' in state 'Stop Listening Request'
+*Debug 09/18 18:22:20.948 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Stop Listening Response' in  state 'Stop Listening Request'
+*Debug 09/18 18:22:20.950 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STOPPING TIMER-- for state'Stop Listening Request'
+*Debug 09/18 18:22:20.950 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Stop Listening Request'
+*Debug 09/18 18:22:20.950 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=GotKseResponse guard=CheckIfAllPortsDone' in state 'Stop Listening Request'
+*Debug 09/18 18:22:20.950 Timeline Controller: Timeline1 activityCallback from agent HTTPClient1 - error = 
+*Debug 09/18 18:22:20.950 Timeline Controller: Timeline1 asyncActivityList = []
+*Debug 09/18 18:22:20.951 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: STOP LISTENING             eventId =  Timeline Controller: All activities stopped listening description = None details = None status = None
+*Debug 09/18 18:22:20.951 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Stop Listening Response' Result='Handled' in state 'Stop Listening Request'
+*Debug 09/18 18:22:20.951 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Configured'
+*Debug 09/18 18:22:20.951 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Stop Listening Request' to 'Configured' after handling event 'Stop Listening Response'
+*Debug 09/18 18:22:21.29 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:21.29 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: All activities stopped listening
+*Debug 09/18 18:22:21.29 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: All activities stopped listening
+*Debug 09/18 18:22:21.29 Timeline Controller: << Timeline1 Condition Abort Iteration Check>> : Timeline Aborted = False, Iteration left = False, All run stopped stats received = False
+*Debug 09/18 18:22:21.29 Timeline Controller: << Condition Abort Iteration Check Returning>> :  waiting
+*Debug 09/18 18:22:21.29 Timeline Controller: Timeline Controller FSM: EXIT Action for the State: STOP LISTENING :: Timeline1 
+*Debug 09/18 18:22:21.29 Timeline Controller: Timeline1 Clearing the Async Timer timer (1505739500.926, 0, <bound method ixTimelineController.asyncCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:21.29 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: All activities stopped listening
+*Debug 09/18 18:22:21.30 ixFSM:   *** FSM Timeline Timeline1 --EXITING STATE--:  Timeline Controller: STOP LISTENING            
+*Debug 09/18 18:22:21.30 ixFSM:   *** FSM Timeline Timeline1 --ENTERING STATE--:  Timeline Controller: WAITING FOR STOP STAT     
+*Debug 09/18 18:22:21.30 Timeline Controller: Timeline Controller FSM: ENTRY Action for the State: WAITING FOR STOP STAT :: Timeline1 
+*Debug 09/18 18:22:21.30 Timeline Controller: Timeline1 Created StopStat Timer with the timer Run Duration = 600 stopStat timer id = (1505739741.031, 0, <bound method ixTimelineController.stopStatCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:21.32 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: STOP LISTENING', EVENT RECEIVED:  Timeline Controller: All activities stopped listening
+  NEW STATE: 'Timeline Controller: STOP LISTENING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:23.487 ixRunStateStatPlugin: For the timeline Timeline1 the agent HTTPClient1 within the community Traffic1@Network1 has stopped successfully on 1 port(s)
+*Debug 09/18 18:22:23.490 ixRunStateStatPlugin: All the activities for the timeline controller Timeline1 have stopped successfully on 1 port(s).
+*Debug 09/18 18:22:23.492 Timeline Controller: Sending event for the timeline controller Timeline1 current state =  Timeline Controller: WAITING FOR STOP STAT      eventId =  Timeline Controller: All activities sent run stopped stat description = None details = None status = None
+*Debug 09/18 18:22:23.532 Timeline Controller ixThreadFSM: Fetching the next event from the queue
+*Debug 09/18 18:22:23.532 Timeline Controller ixThreadFSM: event ID received =  Timeline Controller: All activities sent run stopped stat
+*Debug 09/18 18:22:23.532 ixFSM:   *** FSM Timeline Timeline1: --EVENT RECEIVED--:  Timeline Controller: All activities sent run stopped stat
+*Debug 09/18 18:22:23.532 Timeline Controller: Timeline Controller FSM: _TransAction_Stopped :: Timeline1 
+*Debug 09/18 18:22:23.532 Test Controller: testName = Test1 ; stateName =  TestController: RUNNING                         ; eventId =  Timeline Controller: Timeline stopped ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:23.532 Timeline Controller: Timeline Controller FSM: EXIT Action for the State: WAITING FOR STOP STAT :: Timeline1 
+*Debug 09/18 18:22:23.533 Timeline Controller: Timeline1 Clearing the StopStat Timer timer (1505739741.031, 0, <bound method ixTimelineController.stopStatCallbackDurationExpired of <Lib.TestController.ixTimelineController.ixTimelineController object at 0x247558F0>>, ())
+*Debug 09/18 18:22:23.533 ixFSM:   *** FSM Timeline Timeline1 --EVENT PROCESSED--:  Timeline Controller: All activities sent run stopped stat
+*Debug 09/18 18:22:23.533 ixFSM:   *** FSM Timeline Timeline1 --EXITING STATE--:  Timeline Controller: WAITING FOR STOP STAT     
+*Debug 09/18 18:22:23.533 ixFSM:   *** FSM Timeline Timeline1 --ENTERING STATE--:  Timeline Controller: INIT                      
+*Debug 09/18 18:22:23.535 Timeline Controller: Timeline Controller FSM: ENTRY Action for the State: INIT
+*Debug 09/18 18:22:23.535 Timeline Controller ixThreadFSM: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Timeline Timeline1, TEST NAME: Test1, PREV STATE: 'Timeline Controller: WAITING FOR STOP STAT', EVENT RECEIVED:  Timeline Controller: All activities sent run stopped stat
+  NEW STATE: 'Timeline Controller: WAITING FOR STOP STAT', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:23.585 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:23.585 Test Controller: event ID received =  Timeline Controller: Timeline stopped
+*Debug 09/18 18:22:23.585 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  Timeline Controller: Timeline stopped
+*Debug 09/18 18:22:23.585 Test Controller: Test Controller FSM: Internal Transition Action: _TransAction_checkAllTimelinesStopped()
+*Debug 09/18 18:22:23.586 Test Controller: Test Controller FSM: checkAllTimelinesStopped()
+*Debug 09/18 18:22:23.586 Test Controller: Timelines: Started: 1, Running timelines: 1, Match-longest started: 0, Total: 1
+*Debug 09/18 18:22:23.586 Test Controller: Timelines: Running: 0, Match-longest started: 0, Total: 1
+*Debug 09/18 18:22:23.586 Test Controller: Sending 'Stop Server only timeline' event to server only Timeline Controller(s)
+*Debug 09/18 18:22:23.586 Test Controller: testName = Test1 ; stateName =  TestController: RUNNING                         ; eventId =  TestController: All Timelines stopped successfully. ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:23.588 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  Timeline Controller: Timeline stopped
+*Debug 09/18 18:22:23.588 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: RUNNING                         
+*Debug 09/18 18:22:23.588 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:23.588 Test Controller: event ID received =  TestController: All Timelines stopped successfully.
+*Debug 09/18 18:22:23.588 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: All Timelines stopped successfully.
+*Debug 09/18 18:22:23.618 Test Controller: Test Controller FSM: EXIT Action for the State: RUNNING
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Starting rule resolution
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Now matching for (['TCP CC', 'KSE SSL HTTP', 'Kone', 'Kone Compatible'])
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Checking rule 0.
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns False for Eval
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Checking rule 1.
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns False for KSE New SSL
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Checking rule 2.
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns False for KeepAnyOf(Replay w/Advanced Stats)
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Checking rule 3.
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns True for KeepAnyOf(TCP CC,TCP CPS,TCP TPUT)
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns True for NoneOf(UDP PSTREAM)
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: match returns True for KeepAnyOf(Kone Compatible)
+*Debug 09/18 18:22:23.644 ixDodRuleEngine: Rule 3 fired.
+*Debug 09/18 18:22:23.645 ixDodRuleEngine:   Added packages ['Plugins/agent/Common/ixStackAdapter.tar']
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: Now matching for ['TCP CC', 'KSE SSL HTTP', 'Kone', 'Kone Compatible']
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: Checking rule 4.
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: match returns False for NoneOf(TCP CC,TCP CPS,UDP PSTREAM,TCP TPUT)
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: Checking rule 5.
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: match returns True for KeepAnyOf(Kone Compatible)
+*Debug 09/18 18:22:23.645 ixDodRuleEngine: match returns False for KeepAnyOf(UDP PSTREAM)
+*Debug 09/18 18:22:23.647 ixDodRuleEngine: Checking rule 6.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine: match returns False for TCP Packet Switch
+*Debug 09/18 18:22:23.647 ixDodRuleEngine: Checking rule 7.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine: Checking rule 8.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine: Checking rule 9.
+*Debug 09/18 18:22:23.647 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 10.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns False for KeepAnyOf(kInfoProviderIxDataPubFeature)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 11.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 12.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 13.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 14.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns True for AnyOf(TCP CC,TCP CPS,TCP TPUT)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns False for NoneOf(Kone Compatible)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: Checking rule 15.
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns True for NoneOf(Replay w/Advanced Stats,Replay)
+*Debug 09/18 18:22:23.648 ixDodRuleEngine: match returns False for NoneOf(TCP CC,TCP CPS,TCP TPUT)
+*Debug 09/18 18:22:23.650 ixDodRuleEngine: Checking rule 16.
+*Debug 09/18 18:22:23.650 ixDodRuleEngine: match returns True for Kone Compatible
+*Debug 09/18 18:22:23.650 ixDodRuleEngine: match returns False for NoneOf(TCP TPUT,TCP CC,Replay w/Advanced Stats,SSL Kernel,Replay,TCP CPS)
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 17.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 18.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 19.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: match returns True for KeepAnyOf(Kone Compatible)
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: match returns False for AnyOf(Replay w/Advanced Stats,Replay)
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 20.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 21.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 22.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine: Checking rule 23.
+*Debug 09/18 18:22:23.651 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine: Checking rule 24.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine: Checking rule 25.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine: Checking rule 26.
+*Debug 09/18 18:22:23.653 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 27.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine:   match returns False because more features required than in search list.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 28.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns True for AnyOf(TCP CC,TCP CPS,TCP TPUT)
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns False for NoneOf(Kone Compatible)
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 29.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns False for KeepAnyOf(Replay)
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 30.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns False for KeepAnyOf(Replay)
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 31.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns False for NoneOf(TCP CC,TCP CPS,TCP TPUT)
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 32.
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns True for Kone Compatible
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: match returns False for Replay
+*Debug 09/18 18:22:23.654 ixDodRuleEngine: Checking rule 33.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns True for KeepAnyOf(Kone)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for Replay w/Advanced Stats
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: Checking rule 34.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for NoneOf(Kone Compatible)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: Checking rule 35.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns True for KeepAnyOf(Kone)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: Checking rule 36.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for KeepAnyOf(Conditional View)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: Checking rule 37.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for NoneOf(Kone Compatible)
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: Checking rule 38.
+*Debug 09/18 18:22:23.655 ixDodRuleEngine: match returns False for NoneOf(Kone Compatible)
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 39.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for NoneOf(Conditional View)
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for Kone
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Rule 39 fired.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine:   Added packages ['IxLoad_framework_kone.tar', 'Plugins/agent/Common/stackAdapter.tar', 'Plugins/agent/Common/koneLib.tar']
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Now matching for ['TCP CC', 'KSE SSL HTTP', 'Kone Compatible']
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 40.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for Any
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for Kone Compatible
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for Port Event Viewer
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 41.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for Kone Compatible
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for Port Event Viewer
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 42.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns True for KeepAnyOf(Kone Compatible)
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Rule 42 fired.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine:   Added packages ['Plugins/agent/Common/stackAdapter.tar']
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Now matching for ['TCP CC', 'KSE SSL HTTP', 'Kone Compatible']
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 43.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for High Precision
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 44.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for Conditional View
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 45.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for Conditional View
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 46.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for kInfoProviderIxDataPubFeature
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 47.
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: match returns False for Conditional View
+*Debug 09/18 18:22:23.657 ixDodRuleEngine: Checking rule 48.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns False for SSL Kernel
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Checking rule 49.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns False for kThreadedFeature
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Checking rule 50.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns False for TCP CPS
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Checking rule 51.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns False for AnyOf(UDP PSTREAM,TCP TPUT)
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Checking rule 52.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns True for NoneOf(kClockworkFeature)
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: match returns True for AnyOf(TCP CC,UDP PSTREAM)
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Rule 52 fired.
+*Debug 09/18 18:22:23.658 ixDodRuleEngine:   Added packages ['../aptixia/components/common/ixTcpStack_cc.tar', '../aptixia/components/common/clockwork.tar']
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Now matching for ['KSE SSL HTTP', 'Kone Compatible']
+*Debug 09/18 18:22:23.658 ixDodRuleEngine: Checking rule 53.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for Replay w/Advanced Stats
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 54.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for Replay
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 55.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns True for Kone Compatible
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Rule 55 fired.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine:   Added packages ['Plugins/agent/Common/stackAdapter.tar']
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Now matching for ['KSE SSL HTTP']
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 56.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for Kone
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 57.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for Replay
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 58.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for Port Event Viewer
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: Checking rule 59.
+*Debug 09/18 18:22:23.660 ixDodRuleEngine: match returns False for KSE SSL
+*Debug 09/18 18:22:23.661 ixDodRuleEngine: Checking rule 60.
+*Debug 09/18 18:22:23.661 ixDodRuleEngine: match returns True for KSE SSL HTTP
+*Debug 09/18 18:22:23.661 ixDodRuleEngine: Rule 60 fired.
+*Debug 09/18 18:22:23.661 ixDodRuleEngine:   Added packages ['Plugins/agent/Common/libksessl_http.tar']
+*Debug 09/18 18:22:23.661 ixDodRuleEngine: No more features to match.
+*Debug 09/18 18:22:23.661 ixDodRuleEngine:  Done resolving rules. Features resolve to (initial) DOD packages ['kKseSslHttp']
+*Debug 09/18 18:22:23.661 ixDodRuleEngine: Features resolve to DOD package groups: {'kGroupSsl': ['kKseSslHttp'], 'kGroupFastTcpStack': ['kFastTcpStackCc'], 'kGroupStackAdapter': ['kStackAdapter'], 'kGroupStackAdapterType': ['kIxStackAdapter'], 'kGroupKone': ['kKone'], 'kGroupClockwork': ['kClockwork'], 'kGroupFramework': ['kFrameworkKone']} 
+*Debug 09/18 18:22:23.661 Traffic Traffic1: getMatchingGlobalPackagesFromRule: returns packageNameList = ['IxLoad_framework_kone.tar', '../aptixia/components/common/clockwork.tar', '../aptixia/components/common/ixTcpStack_cc.tar', 'Plugins/agent/Common/stackAdapter.tar', 'Plugins/agent/Common/ixStackAdapter.tar', 'Plugins/agent/Common/koneLib.tar', 'Plugins/agent/Common/libksessl_http.tar']
+*Console 09/18 18:22:23.661 : ++++ [New SSl 0 :  KernSSL 0 : KseSSL 0 : KseSSLHTTP 1 ]
+*Debug 09/18 18:22:23.665 Traffic Traffic1: Traffic Traffic1 Agent HTTPClient1 featureList = {0: True, 1: False, 2: False, 3: True, 4: False, 5: False, 6: False, 7: False, 8: False, 9: False, 10: False}
+*Debug 09/18 18:22:23.665 Traffic Traffic1: getMatchingPluginPackagesFromRule featureDict =  {0: 1, 1: 0, 2: 0, 3: 1, 4: 0, 5: 0, 6: 0, 7: 0, 8: 0, 9: 0, 10: 0}
+*Debug 09/18 18:22:23.665 Traffic Traffic1: getMatchingPluginPackagesFromRule ruleObj.packageNameMap =  [([0], ('', [])), ([0, 1, 2], ('_profile', [])), ([0, 1], ('_profile', [])), ([0, 1, 4], ('_profile', [])), ([0, 4], ('_pipeline', [])), ([0, 2], ('_maxCR', [])), ([0, 1, 2, 3], ('_quick', [])), ([0, 1, 3], ('_quick', [])), ([0, 2, 3], ('_quick', [])), ([0, 3], ('_quick', [])), ([0, 4, 2], ('_pipeline', [])), ([0, 1, 4, 2], ('_profile', [])), ([0, 9], ('_streaming', [])), ([0, 9, 2], ('_streaming_maxCR', [])), ([0, 6, 2], ('_ce', [])), ([0, 6, 7, 2], ('_ce_md5', [])), ([0, 6, 7, 1, 4, 2], ('_ce_profile', [])), ([0, 5], ('_granular_stats', [])), ([0, 1, 2, 5], ('_profile_granular_stats', [])), ([0, 1, 5], ('_profile_granular_stats', [])), ([0, 1, 4, 5], ('_profile_granular_stats', [])), ([0, 4, 5], ('_pipeline_granular_stats', [])), ([0, 2, 5], ('_maxCR_granular_stats', [])), ([0, 1, 2, 3, 5], ('_quick_granular_stats', [])), ([0, 1, 3, 5], ('_quick_granular_stats', [])), ([0, 2, 3, 5], ('_quick_granular_stats', [])), ([0, 3, 5], ('_quick_granular_stats', [])), ([0, 4, 2, 5], ('_pipeline_granular_stats', [])), ([0, 1, 4, 2, 5], ('_profile_granular_stats', [])), ([0, 9, 5], ('_streaming_granular_stats', [])), ([0, 9, 2, 5], ('_streaming_maxCR_granular_stats', [])), ([0, 6, 5, 2], ('_ce_granular_stats', [])), ([0, 6, 7, 5, 2], ('_ce_md5_granular_stats', [])), ([0, 6, 7, 1, 4, 5, 2], ('_ce_profile_granular_stats', [])), ([0, 6, 7, 1, 4, 5, 2], ('_ce_profile_granular_stats', [])), ([0, 8], ('_new_ssl', [])), ([0, 8, 5], ('_new_ssl_granular_stats', [])), ([0, 10], ('_consumer_profile', []))]
+*Console 09/18 18:22:23.667 : getMatchingPluginPackagesFromRule: returns packageNameList = ['Plugins/agent/HTTP_Client/httpClient_quick.tar']
+*Debug 09/18 18:22:23.667 Traffic Traffic1: getTrafficPackages returns ['Plugins/agent/HTTP_Client/httpClient_quick.tar']
+*Debug 09/18 18:22:23.671 Test Controller: [ Stopping the Memory Trim Timer. ] Timer ID = 5
+*Debug 09/18 18:22:23.671 Event Scheduler: REMOVE Event(). Removing Event Index 5
+*Debug 09/18 18:22:23.671 Event Scheduler: Stopping the timer: Event Index 5, timer (1505739980.442, 0, <bound method ixEventScheduler.callback of <Lib.Common.ixEventScheduler.ixEventScheduler object at 0x2BB78330>>, (5,))
+*Debug 09/18 18:22:23.671 Event Scheduler: deleting the event 5
+*Debug 09/18 18:22:23.703 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: All Timelines stopped successfully.
+*Debug 09/18 18:22:23.703 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: RUNNING                         
+*Debug 09/18 18:22:23.703 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: STOPPING                        
+*Debug 09/18 18:22:23.703 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:23.703 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 09/18 18:22:23.703 Test Controller:  PUBLISHING STATE : [ TestController: STOPPING                        ]
+*Debug 09/18 18:22:23.703 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:23.703 Test Controller : ixRunStateHandler received event  TestController: STOPPING                        
+*Debug 09/18 18:22:23.720 Test Controller: Test Controller FSM: ENTRY Action for the State: STOPPING
+*Debug 09/18 18:22:23.720 Test Controller: __stopTest()
+*Debug 09/18 18:22:23.720 Test Controller : SM Cancel being invoked
+*Debug 09/18 18:22:23.720 Test Controller : SM Cancel completed
+*Debug 09/18 18:22:23.736 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: RUNNING', EVENT RECEIVED:  TestController: All Timelines stopped successfully.
+  NEW STATE: 'TestController: STOPPING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:23.737 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:23.737 Community Controller Traffic1@Network1: event ID received =  TestController: Stop the Test Run
+*Debug 09/18 18:22:23.737 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  TestController: Stop the Test Run
+*Debug 09/18 18:22:23.743 Community Controller: Community Traffic1@Network1 has the stop timestamp of 61.0
+*Debug 09/18 18:22:23.743 Community Controller: Scheduled Plugin Stop after next stat: HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 with Timestamp: 58.0. Community stop timestamp was 61.0
+*Debug 09/18 18:22:23.743 Community Controller: Scheduled Plugin Stop after next stat: HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 with Timestamp: 58.0. Community stop timestamp was 61.0
+*Debug 09/18 18:22:23.743 Community Controller: Scheduled Plugin Stop after next stat: Test Client  HTTPClient1 Traffic1@Network1_CSV2 with Timestamp: 60.0. Community stop timestamp was 61.0
+*Debug 09/18 18:22:23.743 Community Controller: Scheduled Plugin Stop after next stat: HTTP_THROLLE_0 with Timestamp: 60.0. Community stop timestamp was 61.0
+*Debug 09/18 18:22:23.743 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: RUNNING  :: Traffic1@Network1 
+*Debug 09/18 18:22:23.746 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  TestController: Stop the Test Run
+*Debug 09/18 18:22:23.746 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: RUNNING              
+*Debug 09/18 18:22:23.746 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: STOPPING             
+*Debug 09/18 18:22:23.746 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: STOPPING  :: Traffic1@Network1 
+*Debug 09/18 18:22:23.746 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: RUNNING', EVENT RECEIVED:  TestController: Stop the Test Run
+  NEW STATE: 'Community Controller: STOPPING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:25.482 ixStatApiCsvFilePlugin: stop(): Stopping stat plugin Test Client  for HTTPClient1
+*Debug 09/18 18:22:27.482 ixStatApiCsvFilePlugin: stop(): Stopping stat plugin HTTP Client - Default CSV Logs for HTTPClient1
+*Debug 09/18 18:22:27.489 HTTP Client: stop(): Stopping stat plugin ThrottleStat1 for HTTPClient1
+*Debug 09/18 18:22:27.490 ixStatThread statThread[4]: exiting thread
+*Debug 09/18 18:22:27.490 ixStatThread statThread[4]: Stat Thread statThread[4]: Average time per poll = 0.00s (total of 0.00s over 17 polls)
+*Debug 09/18 18:22:27.492 ixStatThread statThread[4]: ixStatThread statThread[4] exit() - force=True, isThreadStopped=False
+*Debug 09/18 18:22:27.492 ixStatApiCsvFilePlugin: stop(): Stopping stat plugin HTTP Client  for HTTPClient1
+*Debug 09/18 18:22:27.492 ixStatPoller HTTP_THROLLE_0: Exiting Stat Plugin.
+*Debug 09/18 18:22:27.499 ixStatThread statThread[2]: exiting thread
+*Debug 09/18 18:22:27.499 ixStatThread statThread[2]: Stat Thread statThread[2]: Average time per poll = 0.01s (total of 0.36s over 34 polls)
+*Debug 09/18 18:22:27.499 ixStatThread statThread[2]: ixStatThread statThread[2] exit() - force=True, isThreadStopped=False
+*Debug 09/18 18:22:27.499 ixStatPoller Test Client  HTTPClient1 Traffic1@Network1_CSV2: Exiting Stat Plugin.
+*Debug 09/18 18:22:27.503 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP_THROLLE_0
+*Debug 09/18 18:22:27.503 Stat Controller: deregister plugin HTTP_THROLLE_0 acquireStatEngineLock() called
+*Debug 09/18 18:22:27.503 Stat Controller: deregister plugin HTTP_THROLLE_0 acquireStatEngineLock() done
+*Debug 09/18 18:22:27.503 Stat Controller: deregister plugin HTTP_THROLLE_0 _deregister() called
+*Debug 09/18 18:22:27.503 Stat Controller: _deregister plugin HTTP_THROLLE_0 started
+*Debug 09/18 18:22:27.503 Stat Controller: UnRegister() req <C ixStatRequest instance at _c0803132_p_StatRequest> called
+*Debug 09/18 18:22:27.503 Stat Controller: UnRegister() req <C ixStatRequest instance at _c0803132_p_StatRequest> done
+*Debug 09/18 18:22:27.503 Stat Controller: _deregister plugin HTTP_THROLLE_0 stopped
+*Debug 09/18 18:22:27.505 Stat Controller: deregister plugin HTTP_THROLLE_0 releaseStatEngineLock() called
+*Debug 09/18 18:22:27.505 Stat Controller: deregister plugin HTTP_THROLLE_0 releaseStatEngineLock() done
+*Debug 09/18 18:22:27.505 ixStatThread statThread[4]: Clearing pollers on stat thread statThread[4]
+*Debug 09/18 18:22:27.505 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : Test Client  HTTPClient1 Traffic1@Network1_CSV2
+*Debug 09/18 18:22:27.506 ixStatThread statThread[4]: thread stopped gracefully
+*Debug 09/18 18:22:27.506 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 acquireStatEngineLock() called
+*Debug 09/18 18:22:27.506 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 acquireStatEngineLock() done
+*Debug 09/18 18:22:27.506 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 _deregister() called
+*Debug 09/18 18:22:27.506 Stat Controller: _deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 started
+*Debug 09/18 18:22:27.506 Stat Controller: UnRegister() req <C ixStatRequest instance at _70189608_p_StatRequest> called
+*Debug 09/18 18:22:27.507 Stat Controller: UnRegister() req <C ixStatRequest instance at _70189608_p_StatRequest> done
+*Debug 09/18 18:22:27.507 Stat Controller: _deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 stopped
+*Debug 09/18 18:22:27.507 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 releaseStatEngineLock() called
+*Debug 09/18 18:22:27.507 Stat Controller: deregister plugin Test Client  HTTPClient1 Traffic1@Network1_CSV2 releaseStatEngineLock() done
+*Debug 09/18 18:22:27.513 ixStatPoller HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3: Exiting Stat Plugin.
+*Debug 09/18 18:22:27.517 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3
+*Debug 09/18 18:22:27.517 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 acquireStatEngineLock() called
+*Debug 09/18 18:22:27.517 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 acquireStatEngineLock() done
+*Debug 09/18 18:22:27.519 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 _deregister() called
+*Debug 09/18 18:22:27.519 Stat Controller: _deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 started
+*Debug 09/18 18:22:27.519 Stat Controller: UnRegister() req <C ixStatRequest instance at _e02a620e_p_StatRequest> called
+*Debug 09/18 18:22:27.519 Stat Controller: UnRegister() req <C ixStatRequest instance at _e02a620e_p_StatRequest> done
+*Debug 09/18 18:22:27.519 Stat Controller: _deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 stopped
+*Debug 09/18 18:22:27.519 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 releaseStatEngineLock() called
+*Debug 09/18 18:22:27.519 Stat Controller: deregister plugin HTTP Client - Default CSV Logs HTTPClient1 Traffic1@Network1_CSV3 releaseStatEngineLock() done
+*Debug 09/18 18:22:27.526 ixStatPoller HTTP Client  HTTPClient1 Traffic1@Network1_CSV1: Exiting Stat Plugin.
+*Debug 09/18 18:22:27.529 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : HTTP Client  HTTPClient1 Traffic1@Network1_CSV1
+*Debug 09/18 18:22:27.529 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 acquireStatEngineLock() called
+*Debug 09/18 18:22:27.529 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 acquireStatEngineLock() done
+*Debug 09/18 18:22:27.530 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 _deregister() called
+*Debug 09/18 18:22:27.530 Stat Controller: _deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 started
+*Debug 09/18 18:22:27.530 Stat Controller: UnRegister() req <C ixStatRequest instance at _90a2660e_p_StatRequest> called
+*Debug 09/18 18:22:27.530 Stat Controller: UnRegister() req <C ixStatRequest instance at _90a2660e_p_StatRequest> done
+*Debug 09/18 18:22:27.532 Stat Controller: _deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 stopped
+*Debug 09/18 18:22:27.532 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 releaseStatEngineLock() called
+*Debug 09/18 18:22:27.532 Stat Controller: deregister plugin HTTP Client  HTTPClient1 Traffic1@Network1_CSV1 releaseStatEngineLock() done
+*Debug 09/18 18:22:27.538 ixStatThread statThread[2]: Clearing pollers on stat thread statThread[2]
+*Debug 09/18 18:22:27.538 ixStatThread statThread[2]: thread stopped gracefully
+*Debug 09/18 18:22:27.548 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:27.548 Community Controller Traffic1@Network1: event ID received =  Community Controller: All Stat Plugins Stopped
+*Debug 09/18 18:22:27.548 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: All Stat Plugins Stopped
+*Debug 09/18 18:22:27.549 ixKseCommunicator Global: Sending on ports [(1,1,5)]:'<ixlagent-test-end-request request-id="1505739042" activityName="Global" port-id="0"/>'.
+*Debug 09/18 18:22:27.549 Community Controller: Port Id 192.168.31.42;1;5 timer added.
+*Debug 09/18 18:22:27.549 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: All Stat Plugins Stopped
+*Debug 09/18 18:22:27.549 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: STOPPING             
+*Debug 09/18 18:22:27.552 ixKseCommunicator Global: Got from port (1,1,5): '<ixlagent-test-end-response request-id="1505739042" activityName="Global" port-id="0"/>'
+*Debug 09/18 18:22:27.552 ixKseCommunicator Global: Handling ixlagent message from port (1,1,5): '<ixlagent-test-end-response request-id="1505739042" activityName="Global" port-id="0"/>'
+*Debug 09/18 18:22:27.553 Traffic1@Network1: Traffic1@Network1: got response for requestType test-end on port 0
+*Debug 09/18 18:22:27.553 Community Controller: Port Id 192.168.31.42;1;5 task done.
+*Debug 09/18 18:22:27.650 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:27.650 Community Controller Traffic1@Network1: event ID received =  Community Controller: Community Stopped
+*Debug 09/18 18:22:27.650 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Community Stopped
+*Debug 09/18 18:22:27.651 Test Controller: testName = Test1 ; stateName =  TestController: STOPPING                        ; eventId =  TestController: All communities stopped successfully ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:27.651 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: STOPPING  :: Traffic1@Network1 
+*Debug 09/18 18:22:27.651 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Community Stopped
+*Debug 09/18 18:22:27.651 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: STOPPING             
+*Debug 09/18 18:22:27.651 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: CONFIGURED           
+*Debug 09/18 18:22:27.651 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: CONFIGURED  :: Traffic1@Network1 
+*Debug 09/18 18:22:27.653 Community Controller: Clearing cache on Traffic1@Network1
+*Debug 09/18 18:22:27.653 Community Controller: Community cache cleared on Traffic1@Network1 .
+*Debug 09/18 18:22:27.653 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: STOPPING', EVENT RECEIVED:  Community Controller: Community Stopped
+  NEW STATE: 'Community Controller: CONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:27.736 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:27.736 Test Controller: event ID received =  TestController: All communities stopped successfully
+*Debug 09/18 18:22:27.736 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: All communities stopped successfully
+*Debug 09/18 18:22:27.736 Test Controller: Test Controller FSM: Internal Transition Action: _TransAction_doStatViewerStop()
+*Debug 09/18 18:22:27.742 Stat Controller: tsStopTest()
+*Debug 09/18 18:22:27.742 Stat Controller: Stat manager Stop starts...
+*Debug 09/18 18:22:27.743 Stat Controller: statManagerStopEx()
+*Debug 09/18 18:22:28.45 Stat Controller: Stat manager stopped for publisher=IxLoad with logResults=False, ignoreAction=False, resetViews=False and resetResultFolder=False
+*Debug 09/18 18:22:28.45 Stat Controller: Stat manager Stop finishes
+*Debug 09/18 18:22:28.46 Stat Controller: No Snapshot CSVs to be done
+*Debug 09/18 18:22:28.46 Test Controller: testName = Test1 ; stateName =  TestController: STOPPING                        ; eventId =  TestController: Stat Viewer stopped succesfully ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:28.46 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: All communities stopped successfully
+*Debug 09/18 18:22:28.46 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: STOPPING                        
+*Debug 09/18 18:22:28.48 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:28.48 Test Controller: event ID received =  TestController: Stat Viewer stopped succesfully
+*Debug 09/18 18:22:28.48 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Stat Viewer stopped succesfully
+*Debug 09/18 18:22:28.48 Test Controller:      << Condition >>         :   ReleaseConfigAfterRun = False 
+*Debug 09/18 18:22:28.72 Test Controller: Test Controller FSM: EXIT Action for the State: STOPPING
+*Debug 09/18 18:22:28.72 Test Controller: __runCleanup()
+*Debug 09/18 18:22:28.72 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 09/18 18:22:28.72 Test Controller : Stat Controller has already been stopped
+*Debug 09/18 18:22:28.72 Test Controller: _stopIxViewCapture()
+*Debug 09/18 18:22:28.72 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 09/18 18:22:28.72 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 09/18 18:22:28.72 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning False
+*Info 09/18 18:22:28.72 Licensing: Checking in license for test Test1...
+*Info 09/18 18:22:28.75 Licensing: Checking in license for feature(s) IXLOAD,HTTP-Basic for chassis 192.168.31.42 on license server ['@192.168.31.42']...
+*Debug 09/18 18:22:28.75 Licensing: Release license batch _68cab60d_p_MULTI_IXLM_HANDLE size = 1 debug=0
+*Info 09/18 18:22:28.75 Licensing: License check in succeeded for test Test1.
+
+*Debug 09/18 18:22:28.75 Test Controller : STOPPING the RUN STAT plugin
+*Debug 09/18 18:22:28.75 ixRunStateStatPlugin: stop(): Stopping stat plugin RunState for HTTPClient1
+*Debug 09/18 18:22:28.76 Test Controller : Waiting for the run stat plugin to stop...
+*Debug 09/18 18:22:28.86 Test Controller : Run stat plugin is still running!
+*Debug 09/18 18:22:28.486 ixStatThread statThread[1]: exiting thread
+*Debug 09/18 18:22:28.486 ixStatThread statThread[1]: Stat Thread statThread[1]: Average time per poll = 0.00s (total of 0.06s over 69 polls)
+*Debug 09/18 18:22:28.486 ixStatThread statThread[1]: ixStatThread statThread[1] exit() - force=True, isThreadStopped=False
+*Debug 09/18 18:22:28.486 ixStatPoller __ixRunStateStatPlugin__0: Exiting Stat Plugin.
+*Debug 09/18 18:22:28.496 Stat Controller: STAT CONTROLLER: DE-REGISTER THE Plugin with the STAT CONTROLLER : __ixRunStateStatPlugin__0
+*Debug 09/18 18:22:28.496 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 acquireStatEngineLock() called
+*Debug 09/18 18:22:28.496 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 acquireStatEngineLock() done
+*Debug 09/18 18:22:28.496 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 _deregister() called
+*Debug 09/18 18:22:28.497 Stat Controller: _deregister plugin __ixRunStateStatPlugin__0 started
+*Debug 09/18 18:22:28.497 Stat Controller: UnRegister() req <C ixStatRequest instance at _702b9608_p_StatRequest> called
+*Debug 09/18 18:22:28.497 Stat Controller: UnRegister() req <C ixStatRequest instance at _702b9608_p_StatRequest> done
+*Debug 09/18 18:22:28.497 Stat Controller: _deregister plugin __ixRunStateStatPlugin__0 stopped
+*Debug 09/18 18:22:28.499 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 releaseStatEngineLock() called
+*Debug 09/18 18:22:28.499 Stat Controller: deregister plugin __ixRunStateStatPlugin__0 releaseStatEngineLock() done
+*Debug 09/18 18:22:28.499 ixStatThread statThread[1]: Clearing pollers on stat thread statThread[1]
+*Debug 09/18 18:22:28.499 ixStatThread statThread[1]: thread stopped gracefully
+*Debug 09/18 18:22:28.588 Test Controller : The run stat plugin has stopped.
+*Debug 09/18 18:22:28.588 Test Controller: returning from __runCleanup()
+*Debug 09/18 18:22:28.625 Test Controller : generateExternalReports is done
+*Debug 09/18 18:22:28.670 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Stat Viewer stopped succesfully
+*Debug 09/18 18:22:28.670 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: STOPPING                        
+*Debug 09/18 18:22:28.670 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CONFIGURED                      
+*Debug 09/18 18:22:28.670 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:28.671 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 09/18 18:22:28.671 Test Controller:  PUBLISHING STATE : [ TestController: CONFIGURED                      ]
+*Debug 09/18 18:22:28.671 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:28.671 Test Controller : ixRunStateHandler received event  TestController: CONFIGURED                      
+*Debug 09/18 18:22:28.671 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 09/18 18:22:28.671 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 09/18 18:22:28.673 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status OK}}
+*Debug 09/18 18:22:28.694 Test Controller: Test Controller FSM: ENTRY Action for the State: CONFIGURED
+*Debug 09/18 18:22:28.698 Test Controller: Disconnecting from the stat-engine
+*Debug 09/18 18:22:28.701 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 09/18 18:22:28.701 Stat Controller: disconnectFromAllSources[733447056]: Disconnecting from [('192.168.31.42', '192.168.31.42')]
+*Debug 09/18 18:22:28.701 Stat Controller: Disconnecting from 192.168.31.42/192.168.31.42
+*Debug 09/18 18:22:28.752 Stat Controller: disconnectFromAllSources[733447056]: Done!
+*Debug 09/18 18:22:28.752 Stat Controller: Resetting stat threads
+*Debug 09/18 18:22:28.752 ixStatThread statThread[1]: Stopping the stat thread statThread[1]
+*Debug 09/18 18:22:28.752 ixStatThread statThread[1]: ixStatThread statThread[1] exit() - force=False, isThreadStopped=True
+*Debug 09/18 18:22:28.752 ixStatThread statThread[1]: Clearing pollers on stat thread statThread[1]
+*Debug 09/18 18:22:28.752 ixStatThread statThread[1]: thread stopped gracefully
+*Debug 09/18 18:22:28.752 ixStatThread statThread[2]: Stopping the stat thread statThread[2]
+*Debug 09/18 18:22:28.752 ixStatThread statThread[2]: ixStatThread statThread[2] exit() - force=False, isThreadStopped=True
+*Debug 09/18 18:22:28.752 ixStatThread statThread[2]: Clearing pollers on stat thread statThread[2]
+*Debug 09/18 18:22:28.753 ixStatThread statThread[2]: thread stopped gracefully
+*Debug 09/18 18:22:28.753 ixStatThread statThread[4]: Stopping the stat thread statThread[4]
+*Debug 09/18 18:22:28.753 ixStatThread statThread[4]: ixStatThread statThread[4] exit() - force=False, isThreadStopped=True
+*Debug 09/18 18:22:28.753 ixStatThread statThread[4]: Clearing pollers on stat thread statThread[4]
+*Debug 09/18 18:22:28.753 ixStatThread statThread[4]: thread stopped gracefully
+*Debug 09/18 18:22:28.753 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 09/18 18:22:28.753 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 09/18 18:22:28.763 Stat Controller: Stat Manager AfterApplyConfig
+*Debug 09/18 18:22:28.763 IxAnalyzer : Analyzer - set test state - 1
+*Debug 09/18 18:22:28.789 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: STOPPING', EVENT RECEIVED:  TestController: Stat Viewer stopped succesfully
+  NEW STATE: 'TestController: CONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:29.62 Test Controller: testName = Test1 ; stateName =  TestController: CONFIGURED                      ; eventId =  TestController: Release the Configuration ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:29.62 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:29.62 Test Controller: event ID received =  TestController: Release the Configuration
+*Debug 09/18 18:22:29.62 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Release the Configuration
+*Debug 09/18 18:22:29.95 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Release the Configuration
+*Debug 09/18 18:22:29.95 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: CONFIGURED                      
+*Debug 09/18 18:22:29.95 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CLEANING                        
+*Debug 09/18 18:22:29.95 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:29.95 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 09/18 18:22:29.96 Test Controller:  PUBLISHING STATE : [ TestController: CLEANING                        ]
+*Debug 09/18 18:22:29.96 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:29.96 Test Controller : ixRunStateHandler received event  TestController: CLEANING                        
+*Debug 09/18 18:22:29.112 Test Controller: Test Controller FSM: ENTRY Action for the State: CLEANING
+*Debug 09/18 18:22:29.119 Stat Controller: Stat Manager BeforeReleaseConfig
+*Debug 09/18 18:22:29.121 Test Controller: Total number of Ports for this test are 1 and interfaces 1
+*Debug 09/18 18:22:29.121 Test Controller: Cleaning timeout set to 360 seconds.
+*Debug 09/18 18:22:29.121 Event Scheduler: addEvent() Function. interval = 0, action = <bound method ixTestControllerFSMThread._cleaningTimerExpired of <ixTestControllerFSMThread(Test Controller, started daemon 8128)>>, actionArguments=(()), iteration=0, startDelay=360 and Timer Index = 6
+*Debug 09/18 18:22:29.121 Event Scheduler: EVENT ADDED to the events map. Timer Index=6
+*Debug 09/18 18:22:29.121 Test Controller: [ Cleaning Watch Dog Timer created. ] Timer ID = 6 
+*Debug 09/18 18:22:29.121 Test Controller: [ Configured timeout interval = 0 s, start delay = 360 s. ]
+*Debug 09/18 18:22:29.121 Test Controller : SM Cancel being invoked
+*Debug 09/18 18:22:29.122 Test Controller : SM Cancel completed
+*Debug 09/18 18:22:29.140 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: CONFIGURED', EVENT RECEIVED:  TestController: Release the Configuration
+  NEW STATE: 'TestController: CLEANING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:29.161 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:29.161 Community Controller Traffic1@Network1: event ID received =  TestController: Release the Configuration
+*Debug 09/18 18:22:29.161 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  TestController: Release the Configuration
+*Debug 09/18 18:22:29.161 Community Controller Traffic1@Network1: _TransActionReleaseConfig() for the community Traffic1@Network1
+*Debug 09/18 18:22:29.161 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Exit Request' in state 'Configured'
+*Debug 09/18 18:22:29.161 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: CONFIGURED  :: Traffic1@Network1 
+*Debug 09/18 18:22:29.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Exit Request' in  state 'Configured'
+*Debug 09/18 18:22:29.163 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  TestController: Release the Configuration
+*Debug 09/18 18:22:29.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Configured'
+*Debug 09/18 18:22:29.163 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: CONFIGURED           
+*Debug 09/18 18:22:29.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=SendExitRequest guard=null' in state 'Configured'
+*Debug 09/18 18:22:29.164 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: CLEANING             
+*Debug 09/18 18:22:29.164 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: CLEANING  :: Traffic1@Network1 
+*Debug 09/18 18:22:29.164 ixKseCommunicator HTTPClient1: Sending on ports [(1,1,5)]:'<ixlagent-exit-request request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'.
+*Debug 09/18 18:22:29.164 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: CONFIGURED', EVENT RECEIVED:  TestController: Release the Configuration
+  NEW STATE: 'Community Controller: CLEANING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:29.164 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Exit Request' Result='Handled' in state 'Configured'
+*Debug 09/18 18:22:29.165 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Exit Request'
+*Debug 09/18 18:22:29.165 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STARTING TIMER-- for state'Exit Request'
+*Debug 09/18 18:22:29.165 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Configured' to 'Exit Request' after handling event 'Exit Request'
+*Debug 09/18 18:22:29.375 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-exit-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:29.375 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-exit-response request-id="1505739043" activityName="HTTPClient1" port-id="0"/>'
+*Debug 09/18 18:22:29.377 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT RECEIVED--: 'Exit Response' in state 'Exit Request'
+*Debug 09/18 18:22:29.377 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --PROCESSING EVENT--: 'Exit Response' in  state 'Exit Request'
+*Debug 09/18 18:22:29.378 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STOPPING TIMER-- for state'Exit Request'
+*Debug 09/18 18:22:29.378 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXITING STATE--:'Exit Request'
+*Debug 09/18 18:22:29.378 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EXECUTING TRANSITION--:'Generic: transition=GotKseResponse guard=CheckIfAllPortsDone' in state 'Exit Request'
+*Debug 09/18 18:22:29.378 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --EVENT PROCESSED--: 'Exit Response' Result='Handled' in state 'Exit Request'
+*Debug 09/18 18:22:29.380 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --ENTERING STATE--:'Unconfigured'
+*Debug 09/18 18:22:29.380 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_3' --STATE CHANGED-- from 'Exit Request' to 'Unconfigured' after handling event 'Exit Response'
+*Debug 09/18 18:22:29.466 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:29.466 Community Controller Traffic1@Network1: event ID received =  Community Controller: Activity Cleaned
+*Debug 09/18 18:22:29.466 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Activity Cleaned
+*Debug 09/18 18:22:29.467 Community Controller Traffic1@Network1: Activities Cleaned for the community: Traffic1@Network1
+*Debug 09/18 18:22:29.467 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Activity Cleaned
+*Debug 09/18 18:22:29.467 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: CLEANING             
+*Debug 09/18 18:22:29.467 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:29.467 Community Controller Traffic1@Network1: event ID received =  Community Controller: All Activities Cleaned
+*Debug 09/18 18:22:29.467 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: All Activities Cleaned
+*Debug 09/18 18:22:29.467 ixKseCommunicator Global: Sending on ports [(1,1,5)]:'<ixlagent-exit-request request-id="1505739042" activityName="Global" port-id="0"/>'.
+*Debug 09/18 18:22:29.469 Community Controller: Port Id 192.168.31.42;1;5 timer added.
+*Debug 09/18 18:22:29.469 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: All Activities Cleaned
+*Debug 09/18 18:22:29.469 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: CLEANING             
+*Debug 09/18 18:22:29.641 Community Controller: Kse heartbeat checkTimeForPortId 192.168.31.42;1;5, port time: 1505739149.47, current time 1505739149.64.
+*Debug 09/18 18:22:29.773 ixKseCommunicator Global: Got from port (1,1,5): '<ixlagent-exit-response request-id="1505739042" activityName="Global" port-id="0"/>'
+*Debug 09/18 18:22:29.773 ixKseCommunicator Global: Handling ixlagent message from port (1,1,5): '<ixlagent-exit-response request-id="1505739042" activityName="Global" port-id="0"/>'
+*Debug 09/18 18:22:29.773 Traffic1@Network1: Traffic1@Network1: got response for requestType exit on port 0
+*Debug 09/18 18:22:29.775 Community Controller: Port Id 192.168.31.42;1;5 task done.
+*Debug 09/18 18:22:29.868 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 09/18 18:22:29.868 Community Controller Traffic1@Network1: event ID received =  Community Controller: Global Exit Response Received
+*Debug 09/18 18:22:29.868 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Global Exit Response Received
+*Info 09/18 18:22:29.869 Community Controller: Cleaning traffic and network configuration for the community Traffic1@Network1 on port(s) [(1,1,5)]
+*Debug 09/18 18:22:29.871 [Traffic1@Network1] Port Controller: Close TCP connection to '127.0.0.1:1012' on the hosts: '[(1,1,5)]'.Channel name is 'Global'
+*Debug 09/18 18:22:29.973 [Traffic1@Network1] Port Controller: Sucessfully closed connection to '127.0.0.1:1012'
+*Debug 09/18 18:22:29.973 Community Controller: Kse heartbeat is shutting down.
+*Debug 09/18 18:22:30.59 [Traffic1@Network1] Port Controller: Close TCP connection to '127.0.0.1:1012' on the hosts: '[(1,1,5)]'.Channel name is 'HTTPClient1'
+*Debug 09/18 18:22:30.158 [Traffic1@Network1] Port Controller: Sucessfully closed connection to '127.0.0.1:1012'
+*Debug 09/18 18:22:30.168 [Traffic1@Network1] Port Controller: Starting process killAll='/bin/busybox ['killall', 'kse']' on the hosts: [(1,1,5)].
+*Debug 09/18 18:22:30.269 NetTraffic Traffic1@Network1: TestCommunity Traffic Clean-up
+*Info 09/18 18:22:30.269 Traffic Traffic1: Cleaning up activities for community Traffic1@Network1
+*Debug 09/18 18:22:30.269 Network Network1: cleanUp() for network Network1 configuration
+*Info 09/18 18:22:30.272 Network Network1: Cleaning network Network1 configuration on the ports - [(1,1,5)]
+*Debug 09/18 18:22:30.273 Network Network1: Spawning IxiaNeigh process on [(1,1,5)] in NetTraffic Traffic1@Network1...
+*Debug 09/18 18:22:30.273 [Traffic1@Network1] Port Controller: Starting process ixia_neigh='/bin/busybox ['killall', 'ixia_neigh']' on the hosts: None.
+*Debug 09/18 18:22:30.301 [Traffic1@Network1] Port Controller: SIGCHLD[killAll on host (1,1,5)] signal=0, exit=0, uid=1505739150168
+*Debug 09/18 18:22:30.571 [Traffic1@Network1] Port Controller: SIGCHLD[ixia_neigh on host (1,1,5)] signal=0, exit=0, uid=1505739150274
+*Debug 09/18 18:22:30.573 Network Network1: Cleaning 'Network1' network configuration on the ports - [(1,1,5)]
+*Debug 09/18 18:22:30.573 Network Network1: deleteNetworkPackages unloadPackageList = Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector for ports [(1,1,5)]
+*Debug 09/18 18:22:30.575 Network Network1: Network Network1 exiting deleteNetworkPackages
+*Debug 09/18 18:22:30.575 [Traffic1@Network1] Port Controller: Flushing 1 sockets
+*Debug 09/18 18:22:30.575 [Traffic1@Network1] Port Controller: flushing ixSocket((1,1,5))
+*Debug 09/18 18:22:30.575 [Traffic1@Network1] Port Controller: flush complete for ixSocket((1,1,5))
+*Debug 09/18 18:22:30.575 [Traffic1@Network1] Port Controller: Flush: 1 iterations
+*Debug 09/18 18:22:30.676 [Traffic1@Network1] Port Controller: (1,1,5): markAsClean: removed dirty file /tmp/ixload_dispatcher_STATE_IS_DIRTY
+*Debug 09/18 18:22:30.678 [Traffic1@Network1] Port Controller: @@@ Ended PumpData thread @@@
+
+*Debug 09/18 18:22:31.676 Community Controller: Resetting the community : Traffic1@Network1
+*Debug 09/18 18:22:31.676 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  Community Controller: Cleaning for the community completed successfully ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:31.676 Community Controller Traffic1@Network1: _TransGlobalExitResponse completed for the community Traffic1@Network1
+*Debug 09/18 18:22:31.677 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: CLEANING  :: Traffic1@Network1 
+*Debug 09/18 18:22:31.677 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Global Exit Response Received
+*Debug 09/18 18:22:31.677 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: CLEANING             
+*Debug 09/18 18:22:31.677 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: INIT CONFIG          
+*Debug 09/18 18:22:31.677 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: INIT CONFIG  :: Traffic1@Network1 
+*Debug 09/18 18:22:31.677 Community Controller: Clearing cache on Traffic1@Network1
+*Debug 09/18 18:22:31.677 Community Controller: Community cache cleared on Traffic1@Network1 .
+*Debug 09/18 18:22:31.677 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: CLEANING', EVENT RECEIVED:  Community Controller: Global Exit Response Received
+  NEW STATE: 'Community Controller: INIT CONFIG', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:31.740 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:31.740 Test Controller: event ID received =  Community Controller: Cleaning for the community completed successfully
+*Debug 09/18 18:22:31.740 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  Community Controller: Cleaning for the community completed successfully
+*Debug 09/18 18:22:31.740 Test Controller: Test Controller FSM: Internal Transition Action: checkAllCommCleaned()
+*Debug 09/18 18:22:31.740 Test Controller: Total number of Communities Running = 1
+*Debug 09/18 18:22:31.740 Test Controller: Communities Cleaned so far = 1
+*Debug 09/18 18:22:31.742 Test Controller: __checkAllCommCleaned: _portEventHandlerConfigured=False
+*Debug 09/18 18:22:31.742 Test Controller : Shutting down the existing Community Controller: Traffic1@Network1 
+*Debug 09/18 18:22:31.742 Community Controller: Shutting down communityController for community Traffic1@Network1
+*Debug 09/18 18:22:31.742 [Traffic1@Network1] Port Controller: Flushing 0 sockets
+*Debug 09/18 18:22:31.742 [Traffic1@Network1] Port Controller: Flush: 0 iterations
+*Debug 09/18 18:22:31.782 Community Controller: Resetting the community : Traffic1@Network1
+*Debug 09/18 18:22:31.782 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: All Communities have been cleaned successfully. ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:31.783 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  Community Controller: Cleaning for the community completed successfully
+*Debug 09/18 18:22:31.783 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Debug 09/18 18:22:31.783 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:31.783 Test Controller: event ID received =  TestController: All Communities have been cleaned successfully.
+*Debug 09/18 18:22:31.783 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: All Communities have been cleaned successfully.
+*Debug 09/18 18:22:31.785 Test Controller: Test Controller FSM: Internal Transition Action: startNetworkRemoveConfig()
+*Debug 09/18 18:22:31.785 Network Network1: Network 'Network1': needAutoloadPackage False
+*Info 09/18 18:22:31.786 Test Controller: Tearing down all network interfaces started...
+*Debug 09/18 18:22:31.786 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: All Communities have been cleaned successfully.
+*Debug 09/18 18:22:31.788 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Info 09/18 18:22:31.788 Network: Network Session : Deconfiguring
+*Info 09/18 18:22:31.789 Network: MacSessionData : Deconfiguring Done
+*Info 09/18 18:22:31.789 Network: IxLoadSessionData : Deconfiguring Done
+*Info 09/18 18:22:31.789 Network: IpSessionData : Deconfiguring Done
+*Info 09/18 18:22:32.275 Network: IPSecSessionData : Deconfiguring Done
+*Info 09/18 18:22:32.275 Network: GratARP (GratARP-1) : Package unloading Done
+*Info 09/18 18:22:32.276 Network: IP-R (IP-R1) : Deconfiguring Done
+*Info 09/18 18:22:32.285 Network: MAC-R (MAC-R1) : Deconfiguring Done
+*Info 09/18 18:22:32.286 Network: IP (IP-1) : Package unloading Done
+*Info 09/18 18:22:32.286 Network: Meshing (Meshing-1) : Package unloading Done
+*Info 09/18 18:22:32.868 Network: MAC/VLAN (MAC/VLAN-1) : Package unloading Done
+*Info 09/18 18:22:32.868 Network: Filter (Filter-1) : Package unloading Done
+*Info 09/18 18:22:32.868 Network: TCP (TCP-2) : Package unloading Done
+*Info 09/18 18:22:32.871 Network: DNS (DNS-2) : Package unloading Done
+*Info 09/18 18:22:32.872 Network: Settings (Settings-2) : Package unloading Done
+*Info 09/18 18:22:32.872 Network: Ethernet (Ethernet-1) : Package unloading Done
+*Info 09/18 18:22:32.874 Network: Port Group (Network1) : Deconfiguring Done
+*Info 09/18 18:22:32.875 Test Controller : Tearing down all network interfaces completed...
+*Debug 09/18 18:22:32.875 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: StackManager deconfigured successfully ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:32.888 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:32.888 Test Controller: event ID received =  TestController: StackManager deconfigured successfully
+*Debug 09/18 18:22:32.888 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: StackManager deconfigured successfully
+*Debug 09/18 18:22:32.888 Test Controller: Test Controller FSM: Internal Transition Action: endNetworkRemoveConfig()
+*Debug 09/18 18:22:32.888 Traffic Traffic1: dod_pkg_list = [('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\HTTP_Client\\httpClient_quick.tar', '2e26a9d636215ab8d2681d6dcbdf456d'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\libksessl_http.tar', '4a00f2c7c43989cbe6729fd5ca2f748c'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\koneLib.tar', '365c7727f617894cfb626166329a2855'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\ixStackAdapter.tar', '9302998abbc2fb8b34b1ed0e667352b8'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\stackAdapter.tar', '9d52256360cb5a3affa13bfc904d93e5'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\aptixia\\components\\common\\ixTcpStack_cc.tar', '3a28b840066ff5f928a8cfb33fd165cc'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\aptixia\\components\\common\\clockwork.tar', '5c8daa174338174f95407120322e9097'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\IxLoad_framework_kone.tar', '6191011d69043b00484208f0e59fb3fd')] 
+*Debug 09/18 18:22:32.891 Traffic Traffic1: to_delete_pkg_list = ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] 
+*Debug 09/18 18:22:32.891 Traffic Traffic1: Enter Delete Packages
+*Debug 09/18 18:22:32.891 Traffic Traffic1: Packages>0
+*Info 09/18 18:22:32.891 Traffic Traffic1: Deleting downloaded packages ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] on ports [(1,1,5)]
+*Debug 09/18 18:22:32.892 Traffic Traffic1: SmartDeletePackagesFromPorts
+*Debug 09/18 18:22:34.39 Traffic Traffic1: Deleted downloaded packages ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] on ports [(1,1,5)]
+*Debug 09/18 18:22:34.39 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: StackManager config removed ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:34.40 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: StackManager deconfigured successfully
+*Debug 09/18 18:22:34.40 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Debug 09/18 18:22:34.40 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:34.42 Test Controller: event ID received =  TestController: StackManager config removed
+*Debug 09/18 18:22:34.42 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: StackManager config removed
+*Debug 09/18 18:22:34.42 Test Controller:      << Condition >>         :   Auto Config Flag == False
+*Debug 09/18 18:22:34.42 ixEvent: Attempt to unsubscribe method that was not subscribed
+*Debug 09/18 18:22:34.42 Test Controller : Shutting down the existing Community Controller: Traffic1@Network1 
+*Debug 09/18 18:22:34.73 Test Controller: Test Controller FSM: EXIT Action for the State: CLEANING
+*Debug 09/18 18:22:34.73 Chassis Chain: clearOwnership calling _getPortsConnectionInfoTuple
+*Debug 09/18 18:22:34.75 Chassis Chain: clearOwnership calling getAptixiaFormat
+*Debug 09/18 18:22:34.75 Chassis Chain: clearOwnership calling ChassisConfig.ClearOwnership
+*Debug 09/18 18:22:34.247 Chassis Chain: clearOwnership calling getIxPortList
+*Info 09/18 18:22:34.249 Chassis Chain: Successfully cleared ownership on ports [[1, 1, 5]]
+*Debug 09/18 18:22:34.354 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: Create PortWatch ; errDescription = None ; details = None; status = None
+*Debug 09/18 18:22:34.354 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 09/18 18:22:34.354 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 09/18 18:22:34.355 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 09/18 18:22:34.355 Test Controller: [ Stopping the Cleaning Watch Dog Timer. ] Timer ID = 6
+*Debug 09/18 18:22:34.355 Event Scheduler: REMOVE Event(). Removing Event Index 6
+*Debug 09/18 18:22:34.355 Event Scheduler: Stopping the timer: Event Index 6, timer (1505739509.122, 0, <bound method ixEventScheduler.callback of <Lib.Common.ixEventScheduler.ixEventScheduler object at 0x2BB78330>>, (6,))
+*Debug 09/18 18:22:34.355 Event Scheduler: deleting the event 6
+*Debug 09/18 18:22:34.384 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: StackManager config removed
+*Debug 09/18 18:22:34.384 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: CLEANING                        
+*Debug 09/18 18:22:34.384 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: UNCONFIGURED                    
+*Debug 09/18 18:22:34.384 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:34.384 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 09/18 18:22:34.384 Test Controller:  PUBLISHING STATE : [ TestController: UNCONFIGURED                    ]
+*Debug 09/18 18:22:34.384 Test Controller: **********************************************************************************************
+*Debug 09/18 18:22:34.384 Test Controller : ixRunStateHandler received event  TestController: UNCONFIGURED                    
+*Debug 09/18 18:22:34.385 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 09/18 18:22:34.385 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 09/18 18:22:34.385 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status OK}}
+*Debug 09/18 18:22:34.410 Test Controller: Test Controller FSM: ENTRY Action for the State: UNCONFIGURED
+*Debug 09/18 18:22:34.410 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 09/18 18:22:34.410 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 09/18 18:22:34.410 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 09/18 18:22:34.410 Test Controller: Disconnecting from the stat-engine
+*Debug 09/18 18:22:34.411 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 09/18 18:22:34.411 Stat Controller: disconnectFromAllSources[733447056]: Disconnecting from []
+*Debug 09/18 18:22:34.411 Stat Controller: disconnectFromAllSources[733447056]: Done!
+*Debug 09/18 18:22:34.411 Stat Controller: Resetting stat threads
+*Debug 09/18 18:22:34.411 IxAnalyzer : Analyzer - set test state - 0
+*Debug 09/18 18:22:34.427 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: CLEANING', EVENT RECEIVED:  TestController: StackManager config removed
+  NEW STATE: 'TestController: UNCONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 09/18 18:22:34.427 Test Controller: Fetching the next event from the queue
+*Debug 09/18 18:22:34.427 Test Controller: event ID received =  TestController: Create PortWatch
+*Debug 09/18 18:22:34.427 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Create PortWatch
+*Debug 09/18 18:22:34.427 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Create PortWatch
+*Debug 09/18 18:22:34.428 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: UNCONFIGURED                    
+*Debug 09/18 18:22:34.562 IxAnalyzer : getFilterType(captureSourceId=65538)
+*Debug 09/18 18:22:34.563 IxAnalyzer : Analyzer - RemoveCaptureSource(sourceId=65538)...
+*Debug 09/18 18:22:34.565 IxAnalyzer : Analyzer - RemoveCaptureSource() returned: 310264312
+*Debug 09/18 18:22:34.565 IxAnalyzer : Analyzer - RemoveGroup(65537)...
+*Debug 09/18 18:22:34.566 IxAnalyzer : Analyzer - RemoveGroup() returned: 0

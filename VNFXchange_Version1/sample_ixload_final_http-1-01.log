@@ -1,0 +1,579 @@
+
+################################################################################
+## 10/03/2017 17:27:19: Log Start PID=10168
+################################################################################
+
+*Debug 10/03 17:27:19.729 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:19.799 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:19.801 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:19.801 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:20.301 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:20.322 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:20.322 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:20.322 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:20.822 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:20.845 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:20.845 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:20.845 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:21.346 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:21.423 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:21.424 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:21.424 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:21.924 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:21.944 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:21.944 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:21.946 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:22.446 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:22.476 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:22.477 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:22.477 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:22.977 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:23.49 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:23.49 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:23.49 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:23.549 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:23.569 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:23.569 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:23.569 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:24.69 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:24.95 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:24.95 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:24.95 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:24.595 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:24.673 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:24.674 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:24.674 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:25.174 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:25.194 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:25.194 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:25.194 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:25.694 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:25.720 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:25.720 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:25.720 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:26.220 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:26.298 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:26.299 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:26.299 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:26.799 Chassis Chain: Link down ports = [(1,1,5)]
+*Debug 10/03 17:27:26.799 Chassis Chain: Total wait time for ports to link up = 30.5439999104, max wait time = 30
+*Debug 10/03 17:27:26.799 Test Controller : After resetting links, linkDownIxPortList = [(1,1,5)]
+*Debug 10/03 17:27:26.799 Test Controller : Loop 3 to reset links on [(1,1,5)]
+*Info 10/03 17:27:26.799 Chassis Chain: Reset link on link down ports [(1,1,5)] ...
+*Debug 10/03 17:27:26.815 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:27.6 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:27.7 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:27.7 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:27.507 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:27.532 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:27.533 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:27.533 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:28.33 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:28.111 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:28.111 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:28.111 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:28.611 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:28.631 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:28.631 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:28.631 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:29.131 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:29.157 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:29.158 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:29.158 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:29.658 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:29.736 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:29.736 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:29.736 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:30.236 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:30.259 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:30.259 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:30.259 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:30.759 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:30.821 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:30.822 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:30.822 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:31.322 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:31.423 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:31.424 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:31.424 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:31.924 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:31.944 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:31.944 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:31.944 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:32.444 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:32.470 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:32.470 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:32.470 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:32.971 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:33.49 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:33.49 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:33.49 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:33.549 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:33.571 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:33.571 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:33.571 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:34.72 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:34.95 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:34.95 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:34.95 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:34.596 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:34.674 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:34.674 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:34.674 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:35.174 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:35.196 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:35.196 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:35.196 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:35.697 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:35.720 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:35.720 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:35.721 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:36.221 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:36.299 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:36.299 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:36.299 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:36.799 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:36.821 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:36.821 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:36.821 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:37.321 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:37.345 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:37.345 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:37.345 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:37.846 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:37.961 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:37.961 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:37.963 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:38.463 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:38.486 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:38.486 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:38.486 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:38.986 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:39.19 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:39.19 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:39.19 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:39.519 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:39.540 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:39.540 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:39.542 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:40.42 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:40.111 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:40.111 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:40.112 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:40.612 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:40.634 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:40.634 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:40.634 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:41.134 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:41.157 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:41.157 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:41.157 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:41.658 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:41.736 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:41.736 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:41.736 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:42.236 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:42.259 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:42.259 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:42.259 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:42.759 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:42.782 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:42.783 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:42.783 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:43.283 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:43.361 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:43.361 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:43.361 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:43.861 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:43.898 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:43.900 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:43.900 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:44.401 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:44.424 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:44.424 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:44.424 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:44.924 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:44.946 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:44.946 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:44.946 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:45.447 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:45.470 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:45.470 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:45.470 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:45.970 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:46.49 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:46.49 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:46.49 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:46.549 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:46.571 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:46.572 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:46.572 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:47.72 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:47.95 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:47.95 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:47.96 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:47.596 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:47.617 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:47.618 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:47.618 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:48.118 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:48.148 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:48.150 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:48.150 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:48.650 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:48.674 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:48.674 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:48.674 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:49.174 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:49.194 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:49.194 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:49.194 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:49.694 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:49.720 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:49.721 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:49.721 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:50.221 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:50.299 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:50.299 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:50.301 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:50.801 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:50.832 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:50.832 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:50.834 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:51.334 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:51.365 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:51.365 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:51.367 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:51.867 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:51.924 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:51.924 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:51.924 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:52.424 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:52.446 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:52.446 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:52.447 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:52.947 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:52.971 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:52.971 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:52.971 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:53.471 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:53.549 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:53.549 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:53.549 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:54.51 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:54.72 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:54.72 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:54.72 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:54.572 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:54.595 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:54.596 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:54.596 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:55.96 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:55.174 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:55.174 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:55.174 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:55.674 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:55.694 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:55.694 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:55.696 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:56.196 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:56.220 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:56.221 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:56.221 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:56.721 Chassis Chain: Updating link states for ports [(1,1,5)]
+*Debug 10/03 17:27:56.799 Chassis Chain: GetPortInformation returning result=None, portVector=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+PortVector_V3, portInfo=Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector
+*Debug 10/03 17:27:56.799 Chassis Chain: port 192.168.31.42;1;5 link state = 3
+*Debug 10/03 17:27:56.801 Chassis Chain: Link down on the ports [(1,1,5)] sleeping...
+*Debug 10/03 17:27:57.301 Chassis Chain: Link down ports = [(1,1,5)]
+*Debug 10/03 17:27:57.301 Chassis Chain: Total wait time for ports to link up = 30.486000061, max wait time = 30
+*Debug 10/03 17:27:57.301 Test Controller : After resetting links, linkDownIxPortList = [(1,1,5)]
+*Debug 10/03 17:27:57.301 Test Controller : checkLinkStateAllPorts() returning [(1,1,5)]
+*Debug 10/03 17:27:57.301 Test Controller: testName = Test1 ; stateName =  TestController: RUN INIT                        ; eventId =  TestController ERROR: The link is down on some of the test ports ; errDescription = IxLoad can not start the traffic because the link is down on the following ports [(1,1,5)]. Please fix the link state on these ports and start the test to resume. ; details = None; status = 1
+*Debug 10/03 17:27:57.302 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Error 10/03 17:27:57.302 Test Controller: IxLoad can not start the traffic because the link is down on the following ports [(1,1,5)]. Please fix the link state on these ports and start the test to resume.
+*Debug 10/03 17:27:57.335 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: FINAL CONFIGURATION', EVENT RECEIVED:  TestController: Configuration Finalized Successfully
+  NEW STATE: 'TestController: RUN INIT', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 10/03 17:27:57.342 Stat Controller: tsInitTestRun()
+*Debug 10/03 17:27:57.342 Stat Controller: setPagingTrafficMap start
+*Debug 10/03 17:27:57.342 Stat Controller: publishStatCatalog for Tcl API
+*Debug 10/03 17:27:57.342 Stat Controller: __publishStatCatalog()
+*Debug 10/03 17:27:57.345 Activity HTTPClient1: getStatCatalog: HTTPClient1
+*Debug 10/03 17:27:57.371 Stat Controller: RegisterStatPublisher()
+*Debug 10/03 17:27:57.375 Stat Controller: Registering IxServer publisher for aptixia default views
+*Debug 10/03 17:27:57.377 Test Server: ##### statManagerAddPorts [(1,1,5)]
+*Debug 10/03 17:27:57.377 Test Server: ##### port path 192.168.31.42/Card1/Port5
+*Debug 10/03 17:27:57.377 Test Server: AddPorts ['192.168.31.42/Card1/Port5'] to stat manager
+*Debug 10/03 17:27:57.377 Test Server: ##### PortList.Add 192.168.31.42/Card1/Port5
+*Debug 10/03 17:27:57.377 Test Server: ##### action AddPorts
+*Debug 10/03 17:27:57.482 Stat Controller: setPagingTrafficMap for Tcl API
+*Debug 10/03 17:27:57.482 Stat Controller: setPagingTrafficMap finish
+*Debug 10/03 17:27:57.482 Stat Controller: _resolveAggregated State
+*Debug 10/03 17:27:57.487 Stat Controller: Resolving 319 stats ...
+*Debug 10/03 17:27:57.489 Stat Controller: number of aggregated stats 319
+*Debug 10/03 17:27:57.492 Activity HTTPClient1: getStatCatalog: HTTPClient1
+*Debug 10/03 17:27:57.575 Stat Controller: resolvedStatList = 319
+*Debug 10/03 17:27:57.578 Stat Controller: --- Updated the stats rate statsRate=159.5
+*Debug 10/03 17:27:57.578 Stat Controller: Stats frequency = 2.0 self._statsCount = 319 self._statsRate = 159.5
+*Debug 10/03 17:27:57.578 Stat Controller: checkStatsRate()
+*Debug 10/03 17:27:57.578 Stat Controller: _userDefinedStatsRate = False
+*Debug 10/03 17:27:57.578 Stat Controller: STATS Rate computed for the test is 159.5 ; MAX Stats Rate limit is 55000
+*Debug 10/03 17:27:57.579 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:27:57.579 Test Controller: event ID received =  TestController ERROR: The link is down on some of the test ports
+*Debug 10/03 17:27:57.579 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController ERROR: The link is down on some of the test ports
+*Debug 10/03 17:27:57.579 Test Controller: Test Controller FSM: Transition Action: stopRunForLinkDownError
+*Debug 10/03 17:27:57.618 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController ERROR: The link is down on some of the test ports
+*Debug 10/03 17:27:57.618 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: RUN INIT                        
+*Debug 10/03 17:27:57.618 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CONFIGURED                      
+*Debug 10/03 17:27:57.618 Test Controller: **********************************************************************************************
+*Debug 10/03 17:27:57.618 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 10/03 17:27:57.618 Test Controller:  PUBLISHING STATE : [ TestController: CONFIGURED                      ]
+*Debug 10/03 17:27:57.619 Test Controller: **********************************************************************************************
+*Debug 10/03 17:27:57.619 Test Controller : ixRunStateHandler received event  TestController: CONFIGURED                      
+*Debug 10/03 17:27:57.621 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 10/03 17:27:57.621 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status ERROR description {1} message {IxLoad can not start the traffic because the link is down on the following ports [(1,1,5)]. Please fix the link state on these ports and start the test to resume.}}}
+*Debug 10/03 17:27:57.638 Test Controller: Test Controller FSM: ENTRY Action for the State: CONFIGURED
+*Debug 10/03 17:27:57.642 Test Controller: Disconnecting from the stat-engine
+*Debug 10/03 17:27:57.650 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 10/03 17:27:57.650 Stat Controller: disconnectFromAllSources[618185680]: Disconnecting from []
+*Debug 10/03 17:27:57.650 Stat Controller: disconnectFromAllSources[618185680]: Done!
+*Debug 10/03 17:27:57.650 Stat Controller: Resetting stat threads
+*Debug 10/03 17:27:57.650 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 10/03 17:27:57.650 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 10/03 17:27:57.657 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 10/03 17:27:57.657 Community Controller Traffic1@Network1: event ID received =  TestController: Stop the Test Run
+*Debug 10/03 17:27:57.657 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  TestController: Stop the Test Run
+*Debug 10/03 17:27:57.657 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  TestController: Stop the Test Run
+*Debug 10/03 17:27:57.657 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: CONFIGURED           
+*Debug 10/03 17:27:57.660 Stat Controller: Stat Manager AfterApplyConfig
+*Debug 10/03 17:27:57.661 IxAnalyzer : Analyzer - set test state - 1
+*Debug 10/03 17:27:57.701 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: RUN INIT', EVENT RECEIVED:  TestController ERROR: The link is down on some of the test ports
+  NEW STATE: 'TestController: CONFIGURED', DESCRIPTION: IxLoad can not start the traffic because the link is down on the following ports [(1,1,5)]. Please fix the link state on these ports and start the test to resume., DETAILS: None, STATUS: 1
+*Debug 10/03 17:27:57.770 Test Controller: testName = Test1 ; stateName =  TestController: CONFIGURED                      ; eventId =  TestController: Release the Configuration ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:27:57.802 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:27:57.802 Test Controller: event ID received =  TestController: Release the Configuration
+*Debug 10/03 17:27:57.802 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Release the Configuration
+*Debug 10/03 17:27:57.861 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Release the Configuration
+*Debug 10/03 17:27:57.861 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: CONFIGURED                      
+*Debug 10/03 17:27:57.861 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: CLEANING                        
+*Debug 10/03 17:27:57.861 Test Controller: **********************************************************************************************
+*Debug 10/03 17:27:57.862 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 10/03 17:27:57.862 Test Controller:  PUBLISHING STATE : [ TestController: CLEANING                        ]
+*Debug 10/03 17:27:57.862 Test Controller: **********************************************************************************************
+*Debug 10/03 17:27:57.862 Test Controller : ixRunStateHandler received event  TestController: CLEANING                        
+*Debug 10/03 17:27:57.897 Test Controller: Test Controller FSM: ENTRY Action for the State: CLEANING
+*Debug 10/03 17:27:57.901 Stat Controller: Stat Manager BeforeReleaseConfig
+*Debug 10/03 17:27:57.901 Test Controller: Total number of Ports for this test are 1 and interfaces 1
+*Debug 10/03 17:27:57.901 Test Controller: Cleaning timeout set to 360 seconds.
+*Debug 10/03 17:27:57.901 Event Scheduler: addEvent() Function. interval = 0, action = <bound method ixTestControllerFSMThread._cleaningTimerExpired of <ixTestControllerFSMThread(Test Controller, started daemon 6604)>>, actionArguments=(()), iteration=0, startDelay=360 and Timer Index = 2
+*Debug 10/03 17:27:57.901 Event Scheduler: EVENT ADDED to the events map. Timer Index=2
+*Debug 10/03 17:27:57.903 Test Controller: [ Cleaning Watch Dog Timer created. ] Timer ID = 2 
+*Debug 10/03 17:27:57.903 Test Controller: [ Configured timeout interval = 0 s, start delay = 360 s. ]
+*Debug 10/03 17:27:57.903 Test Controller: _stopIxViewCapture()
+*Debug 10/03 17:27:57.903 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 10/03 17:27:57.903 NetTraffic Traffic1@Network1: isAnyPortCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 10/03 17:27:57.903 NetTraffic Traffic1@Network1: isCommunityCaptureEnabled() for Traffic1@Network1 returning False
+*Debug 10/03 17:27:57.903 Test Controller : SM Cancel being invoked
+*Debug 10/03 17:27:57.904 Test Controller : SM Cancel completed
+*Debug 10/03 17:27:57.923 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: CONFIGURED', EVENT RECEIVED:  TestController: Release the Configuration
+  NEW STATE: 'TestController: CLEANING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 10/03 17:27:57.957 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 10/03 17:27:57.957 Community Controller Traffic1@Network1: event ID received =  TestController: Release the Configuration
+*Debug 10/03 17:27:57.957 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  TestController: Release the Configuration
+*Debug 10/03 17:27:57.957 Community Controller Traffic1@Network1: _TransActionReleaseConfig() for the community Traffic1@Network1
+*Debug 10/03 17:27:57.957 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EVENT RECEIVED--: 'Exit Request' in state 'Configured'
+*Debug 10/03 17:27:57.957 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: CONFIGURED  :: Traffic1@Network1 
+*Debug 10/03 17:27:57.959 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --PROCESSING EVENT--: 'Exit Request' in  state 'Configured'
+*Debug 10/03 17:27:57.959 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  TestController: Release the Configuration
+*Debug 10/03 17:27:57.959 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EXITING STATE--:'Configured'
+*Debug 10/03 17:27:57.959 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: CONFIGURED           
+*Debug 10/03 17:27:57.959 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EXECUTING TRANSITION--:'Generic: transition=SendExitRequest guard=null' in state 'Configured'
+*Debug 10/03 17:27:57.960 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: CLEANING             
+*Debug 10/03 17:27:57.960 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: CLEANING  :: Traffic1@Network1 
+*Debug 10/03 17:27:57.960 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: CONFIGURED', EVENT RECEIVED:  TestController: Release the Configuration
+  NEW STATE: 'Community Controller: CLEANING', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 10/03 17:27:57.960 ixKseCommunicator HTTPClient1: Sending on ports [(1,1,5)]:'<ixlagent-exit-request request-id="1507031693" activityName="HTTPClient1" port-id="0"/>'.
+*Debug 10/03 17:27:57.960 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EVENT PROCESSED--: 'Exit Request' Result='Handled' in state 'Configured'
+*Debug 10/03 17:27:57.960 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --ENTERING STATE--:'Exit Request'
+*Debug 10/03 17:27:57.961 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --STARTING TIMER-- for state'Exit Request'
+*Debug 10/03 17:27:57.961 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --STATE CHANGED-- from 'Configured' to 'Exit Request' after handling event 'Exit Request'
+*Debug 10/03 17:27:58.157 ixKseCommunicator HTTPClient1: Got from port (1,1,5): '<ixlagent-exit-response request-id="1507031693" activityName="HTTPClient1" port-id="0"/>'
+*Debug 10/03 17:27:58.157 ixKseCommunicator HTTPClient1: Handling ixlagent message from port (1,1,5): '<ixlagent-exit-response request-id="1507031693" activityName="HTTPClient1" port-id="0"/>'
+*Debug 10/03 17:27:58.160 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EVENT RECEIVED--: 'Exit Response' in state 'Exit Request'
+*Debug 10/03 17:27:58.161 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --PROCESSING EVENT--: 'Exit Response' in  state 'Exit Request'
+*Debug 10/03 17:27:58.161 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --STOPPING TIMER-- for state'Exit Request'
+*Debug 10/03 17:27:58.161 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EXITING STATE--:'Exit Request'
+*Debug 10/03 17:27:58.161 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EXECUTING TRANSITION--:'Generic: transition=GotKseResponse guard=CheckIfAllPortsDone' in state 'Exit Request'
+*Debug 10/03 17:27:58.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --EVENT PROCESSED--: 'Exit Response' Result='Handled' in state 'Exit Request'
+*Debug 10/03 17:27:58.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --ENTERING STATE--:'Unconfigured'
+*Debug 10/03 17:27:58.163 Traffic1 HTTPClient1:   *** HSM 'Traffic1_HTTPClient1_1' --STATE CHANGED-- from 'Exit Request' to 'Unconfigured' after handling event 'Exit Response'
+*Debug 10/03 17:27:58.260 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 10/03 17:27:58.262 Community Controller Traffic1@Network1: event ID received =  Community Controller: Activity Cleaned
+*Debug 10/03 17:27:58.262 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Activity Cleaned
+*Debug 10/03 17:27:58.262 Community Controller Traffic1@Network1: Activities Cleaned for the community: Traffic1@Network1
+*Debug 10/03 17:27:58.263 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Activity Cleaned
+*Debug 10/03 17:27:58.263 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: CLEANING             
+*Debug 10/03 17:27:58.263 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 10/03 17:27:58.263 Community Controller Traffic1@Network1: event ID received =  Community Controller: All Activities Cleaned
+*Debug 10/03 17:27:58.263 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: All Activities Cleaned
+*Debug 10/03 17:27:58.263 ixKseCommunicator Global: Sending on ports [(1,1,5)]:'<ixlagent-exit-request request-id="1507031692" activityName="Global" port-id="0"/>'.
+*Debug 10/03 17:27:58.263 Community Controller: Port Id 192.168.31.42;1;5 timer added.
+*Debug 10/03 17:27:58.263 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: All Activities Cleaned
+*Debug 10/03 17:27:58.265 ixFSM:   *** FSM Community Controller Traffic1@Network1 --INTERNAL EVENT. STAYING IN STATE--:  Community Controller: CLEANING             
+*Debug 10/03 17:27:58.315 ixKseCommunicator Global: Got from port (1,1,5): '<ixlagent-exit-response request-id="1507031692" activityName="Global" port-id="0"/>'
+*Debug 10/03 17:27:58.315 ixKseCommunicator Global: Handling ixlagent message from port (1,1,5): '<ixlagent-exit-response request-id="1507031692" activityName="Global" port-id="0"/>'
+*Debug 10/03 17:27:58.315 Traffic1@Network1: Traffic1@Network1: got response for requestType exit on port 0
+*Debug 10/03 17:27:58.315 Community Controller: Port Id 192.168.31.42;1;5 task done.
+*Debug 10/03 17:27:58.365 Community Controller Traffic1@Network1: Fetching the next event from the queue
+*Debug 10/03 17:27:58.365 Community Controller Traffic1@Network1: event ID received =  Community Controller: Global Exit Response Received
+*Debug 10/03 17:27:58.365 ixFSM:   *** FSM Community Controller Traffic1@Network1: --EVENT RECEIVED--:  Community Controller: Global Exit Response Received
+*Info 10/03 17:27:58.365 Community Controller: Cleaning traffic and network configuration for the community Traffic1@Network1 on port(s) [(1,1,5)]
+*Debug 10/03 17:27:58.368 [Traffic1@Network1] Port Controller: Close TCP connection to '127.0.0.1:1012' on the hosts: '[(1,1,5)]'.Channel name is 'Global'
+*Debug 10/03 17:27:58.470 [Traffic1@Network1] Port Controller: Sucessfully closed connection to '127.0.0.1:1012'
+*Debug 10/03 17:27:58.470 Community Controller: Kse heartbeat is shutting down.
+*Debug 10/03 17:27:58.556 [Traffic1@Network1] Port Controller: Close TCP connection to '127.0.0.1:1012' on the hosts: '[(1,1,5)]'.Channel name is 'HTTPClient1'
+*Debug 10/03 17:27:58.657 [Traffic1@Network1] Port Controller: Sucessfully closed connection to '127.0.0.1:1012'
+*Debug 10/03 17:27:58.667 [Traffic1@Network1] Port Controller: Starting process killAll='/bin/busybox ['killall', 'kse']' on the hosts: [(1,1,5)].
+*Debug 10/03 17:27:58.770 NetTraffic Traffic1@Network1: TestCommunity Traffic Clean-up
+*Info 10/03 17:27:58.772 Traffic Traffic1: Cleaning up activities for community Traffic1@Network1
+*Debug 10/03 17:27:58.773 Network Network1: cleanUp() for network Network1 configuration
+*Info 10/03 17:27:58.775 Network Network1: Cleaning network Network1 configuration on the ports - [(1,1,5)]
+*Debug 10/03 17:27:58.776 Network Network1: Spawning IxiaNeigh process on [(1,1,5)] in NetTraffic Traffic1@Network1...
+*Debug 10/03 17:27:58.776 [Traffic1@Network1] Port Controller: Starting process ixia_neigh='/bin/busybox ['killall', 'ixia_neigh']' on the hosts: None.
+*Debug 10/03 17:27:58.793 [Traffic1@Network1] Port Controller: SIGCHLD[killAll on host (1,1,5)] signal=0, exit=0, uid=1507031878666
+*Debug 10/03 17:27:58.996 [Traffic1@Network1] Port Controller: SIGCHLD[ixia_neigh on host (1,1,5)] signal=0, exit=1, uid=1507031878776
+*Debug 10/03 17:27:59.76 Network Network1: Cleaning 'Network1' network configuration on the ports - [(1,1,5)]
+*Debug 10/03 17:27:59.76 Network Network1: deleteNetworkPackages unloadPackageList = Ixia.Aptixia.ChassisManager.stubs.ChassisConfig+StringVector for ports [(1,1,5)]
+*Debug 10/03 17:27:59.76 Network Network1: Network Network1 exiting deleteNetworkPackages
+*Debug 10/03 17:27:59.76 [Traffic1@Network1] Port Controller: Flushing 1 sockets
+*Debug 10/03 17:27:59.76 [Traffic1@Network1] Port Controller: flushing ixSocket((1,1,5))
+*Debug 10/03 17:27:59.78 [Traffic1@Network1] Port Controller: flush complete for ixSocket((1,1,5))
+*Debug 10/03 17:27:59.78 [Traffic1@Network1] Port Controller: Flush: 1 iterations
+*Debug 10/03 17:27:59.177 [Traffic1@Network1] Port Controller: (1,1,5): markAsClean: removed dirty file /tmp/ixload_dispatcher_STATE_IS_DIRTY
+*Debug 10/03 17:27:59.180 [Traffic1@Network1] Port Controller: @@@ Ended PumpData thread @@@
+
+*Debug 10/03 17:28:00.177 Community Controller: Resetting the community : Traffic1@Network1
+*Debug 10/03 17:28:00.177 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  Community Controller: Cleaning for the community completed successfully ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:28:00.177 Community Controller Traffic1@Network1: _TransGlobalExitResponse completed for the community Traffic1@Network1
+*Debug 10/03 17:28:00.177 Community Controller Traffic1@Network1: Community Controller FSM: EXIT Action for the State: CLEANING  :: Traffic1@Network1 
+*Debug 10/03 17:28:00.177 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EVENT PROCESSED--:  Community Controller: Global Exit Response Received
+*Debug 10/03 17:28:00.178 ixFSM:   *** FSM Community Controller Traffic1@Network1 --EXITING STATE--:  Community Controller: CLEANING             
+*Debug 10/03 17:28:00.178 ixFSM:   *** FSM Community Controller Traffic1@Network1 --ENTERING STATE--:  Community Controller: INIT CONFIG          
+*Debug 10/03 17:28:00.178 Community Controller Traffic1@Network1: Community Controller FSM: ENTRY Action for the State: INIT CONFIG  :: Traffic1@Network1 
+*Debug 10/03 17:28:00.178 Community Controller: Clearing cache on Traffic1@Network1
+*Debug 10/03 17:28:00.178 Community Controller: Community cache cleared on Traffic1@Network1 .
+*Debug 10/03 17:28:00.178 Community Controller Traffic1@Network1: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Community Controller Traffic1@Network1, TEST NAME: Test1, PREV STATE: 'Community Controller: CLEANING', EVENT RECEIVED:  Community Controller: Global Exit Response Received
+  NEW STATE: 'Community Controller: INIT CONFIG', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 10/03 17:28:00.223 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:28:00.223 Test Controller: event ID received =  Community Controller: Cleaning for the community completed successfully
+*Debug 10/03 17:28:00.223 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  Community Controller: Cleaning for the community completed successfully
+*Debug 10/03 17:28:00.223 Test Controller: Test Controller FSM: Internal Transition Action: checkAllCommCleaned()
+*Debug 10/03 17:28:00.223 Test Controller: Total number of Communities Running = 1
+*Debug 10/03 17:28:00.223 Test Controller: Communities Cleaned so far = 1
+*Debug 10/03 17:28:00.223 Test Controller: __checkAllCommCleaned: _portEventHandlerConfigured=False
+*Debug 10/03 17:28:00.223 Test Controller : Shutting down the existing Community Controller: Traffic1@Network1 
+*Debug 10/03 17:28:00.223 Community Controller: Shutting down communityController for community Traffic1@Network1
+*Debug 10/03 17:28:00.223 [Traffic1@Network1] Port Controller: Flushing 0 sockets
+*Debug 10/03 17:28:00.223 [Traffic1@Network1] Port Controller: Flush: 0 iterations
+*Debug 10/03 17:28:00.283 Community Controller: Resetting the community : Traffic1@Network1
+*Debug 10/03 17:28:00.283 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: All Communities have been cleaned successfully. ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:28:00.283 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  Community Controller: Cleaning for the community completed successfully
+*Debug 10/03 17:28:00.283 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Debug 10/03 17:28:00.283 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:28:00.283 Test Controller: event ID received =  TestController: All Communities have been cleaned successfully.
+*Debug 10/03 17:28:00.283 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: All Communities have been cleaned successfully.
+*Debug 10/03 17:28:00.285 Test Controller: Test Controller FSM: Internal Transition Action: startNetworkRemoveConfig()
+*Debug 10/03 17:28:00.286 Network Network1: Network 'Network1': needAutoloadPackage False
+*Info 10/03 17:28:00.286 Test Controller: Tearing down all network interfaces started...
+*Debug 10/03 17:28:00.288 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: All Communities have been cleaned successfully.
+*Debug 10/03 17:28:00.289 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Info 10/03 17:28:00.289 Network: Network Session : Deconfiguring
+*Info 10/03 17:28:00.290 Network: IpSessionData : Deconfiguring Done
+*Info 10/03 17:28:00.292 Network: MacSessionData : Deconfiguring Done
+*Info 10/03 17:28:00.292 Network: IxLoadSessionData : Deconfiguring Done
+*Info 10/03 17:28:00.499 Network: IPSecSessionData : Deconfiguring Done
+*Info 10/03 17:28:00.500 Network: IP-R (IP-R1) : Deconfiguring Done
+*Info 10/03 17:28:00.500 Network: GratARP (GratARP-1) : Package unloading Done
+*Info 10/03 17:28:00.717 Network: MAC-R (MAC-R1) : Deconfiguring Done
+*Info 10/03 17:28:00.719 Network: Meshing (Meshing-1) : Package unloading Done
+*Info 10/03 17:28:00.719 Network: IP (IP-1) : Package unloading Done
+*Info 10/03 17:28:01.371 Network: MAC/VLAN (MAC/VLAN-1) : Package unloading Done
+*Info 10/03 17:28:01.372 Network: TCP (TCP-2) : Package unloading Done
+*Info 10/03 17:28:01.374 Network: Filter (Filter-1) : Package unloading Done
+*Info 10/03 17:28:01.374 Network: Settings (Settings-2) : Package unloading Done
+*Info 10/03 17:28:01.375 Network: DNS (DNS-2) : Package unloading Done
+*Info 10/03 17:28:01.375 Network: Ethernet (Ethernet-1) : Package unloading Done
+*Info 10/03 17:28:01.375 Network: Port Group (Network1) : Deconfiguring Done
+*Info 10/03 17:28:01.377 Test Controller : Tearing down all network interfaces completed...
+*Debug 10/03 17:28:01.377 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: StackManager deconfigured successfully ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:28:01.390 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:28:01.390 Test Controller: event ID received =  TestController: StackManager deconfigured successfully
+*Debug 10/03 17:28:01.390 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: StackManager deconfigured successfully
+*Debug 10/03 17:28:01.390 Test Controller: Test Controller FSM: Internal Transition Action: endNetworkRemoveConfig()
+*Debug 10/03 17:28:01.391 Traffic Traffic1: dod_pkg_list = [('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\HTTP_Client\\httpClient_quick.tar', '2e26a9d636215ab8d2681d6dcbdf456d'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\libksessl_http.tar', '4a00f2c7c43989cbe6729fd5ca2f748c'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\koneLib.tar', '365c7727f617894cfb626166329a2855'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\ixStackAdapter.tar', '9302998abbc2fb8b34b1ed0e667352b8'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\Plugins\\agent\\Common\\stackAdapter.tar', '9d52256360cb5a3affa13bfc904d93e5'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\aptixia\\components\\common\\ixTcpStack_cc.tar', '3a28b840066ff5f928a8cfb33fd165cc'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\aptixia\\components\\common\\clockwork.tar', '5c8daa174338174f95407120322e9097'), ('C:\\Program Files (x86)\\Ixia\\IxLoad\\8.10-EA\\Client\\IxLoad_framework_kone.tar', '6191011d69043b00484208f0e59fb3fd')] 
+*Debug 10/03 17:28:01.392 Traffic Traffic1: to_delete_pkg_list = ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] 
+*Debug 10/03 17:28:01.392 Traffic Traffic1: Enter Delete Packages
+*Debug 10/03 17:28:01.392 Traffic Traffic1: Packages>0
+*Info 10/03 17:28:01.392 Traffic Traffic1: Deleting downloaded packages ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] on ports [(1,1,5)]
+*Debug 10/03 17:28:01.394 Traffic Traffic1: SmartDeletePackagesFromPorts
+*Debug 10/03 17:28:02.451 Traffic Traffic1: Deleted downloaded packages ['httpClient_quick', 'libksessl_http', 'koneLib', 'ixStackAdapter', 'stackAdapter', 'ixTcpStack_cc', 'clockwork', 'IxLoad_framework_kone'] on ports [(1,1,5)]
+*Debug 10/03 17:28:02.451 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: StackManager config removed ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:28:02.453 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: StackManager deconfigured successfully
+*Debug 10/03 17:28:02.453 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: CLEANING                        
+*Debug 10/03 17:28:02.453 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:28:02.453 Test Controller: event ID received =  TestController: StackManager config removed
+*Debug 10/03 17:28:02.453 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: StackManager config removed
+*Debug 10/03 17:28:02.453 Test Controller:      << Condition >>         :   Auto Config Flag == False
+*Debug 10/03 17:28:02.453 ixEvent: Attempt to unsubscribe method that was not subscribed
+*Debug 10/03 17:28:02.453 Test Controller : Shutting down the existing Community Controller: Traffic1@Network1 
+*Debug 10/03 17:28:02.480 Test Controller: Test Controller FSM: EXIT Action for the State: CLEANING
+*Debug 10/03 17:28:02.480 Chassis Chain: clearOwnership calling _getPortsConnectionInfoTuple
+*Debug 10/03 17:28:02.482 Chassis Chain: clearOwnership calling getAptixiaFormat
+*Debug 10/03 17:28:02.482 Chassis Chain: clearOwnership calling ChassisConfig.ClearOwnership
+*Debug 10/03 17:28:02.609 Chassis Chain: clearOwnership calling getIxPortList
+*Info 10/03 17:28:02.609 Chassis Chain: Successfully cleared ownership on ports [[1, 1, 5]]
+*Debug 10/03 17:28:02.749 Test Controller: testName = Test1 ; stateName =  TestController: CLEANING                        ; eventId =  TestController: Create PortWatch ; errDescription = None ; details = None; status = None
+*Debug 10/03 17:28:02.749 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 10/03 17:28:02.749 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 10/03 17:28:02.750 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 10/03 17:28:02.750 Test Controller: [ Stopping the Cleaning Watch Dog Timer. ] Timer ID = 2
+*Debug 10/03 17:28:02.750 Event Scheduler: REMOVE Event(). Removing Event Index 2
+*Debug 10/03 17:28:02.750 Event Scheduler: Stopping the timer: Event Index 2, timer (1507032237.902, 0, <bound method ixEventScheduler.callback of <Lib.Common.ixEventScheduler.ixEventScheduler object at 0x24D8C370>>, (2,))
+*Debug 10/03 17:28:02.750 Event Scheduler: deleting the event 2
+*Debug 10/03 17:28:02.779 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: StackManager config removed
+*Debug 10/03 17:28:02.780 ixFSM:   *** FSM Test Controller --EXITING STATE--:  TestController: CLEANING                        
+*Debug 10/03 17:28:02.780 ixFSM:   *** FSM Test Controller --ENTERING STATE--:  TestController: UNCONFIGURED                    
+*Debug 10/03 17:28:02.780 Test Controller: **********************************************************************************************
+*Debug 10/03 17:28:02.780 Test Controller:              PUBLISHING PRESTATE CHANGE EVENT       
+*Debug 10/03 17:28:02.780 Test Controller:  PUBLISHING STATE : [ TestController: UNCONFIGURED                    ]
+*Debug 10/03 17:28:02.782 Test Controller: **********************************************************************************************
+*Debug 10/03 17:28:02.782 Test Controller : ixRunStateHandler received event  TestController: UNCONFIGURED                    
+*Debug 10/03 17:28:02.782 Test Controller : calling ::IxLoad eval {set ::ixCaptureMonitor {eventType CAPTURE_STOPPED status OK}}
+*Debug 10/03 17:28:02.782 Test Controller : calling ::IxLoad eval {::IxLoadPrivate::default_event_callback {eventType TEST_STOPPED status ERROR description {1} message {IxLoad can not start the traffic because the link is down on the following ports [(1,1,5)]. Please fix the link state on these ports and start the test to resume.}}}
+*Debug 10/03 17:28:02.802 Test Controller: Test Controller FSM: ENTRY Action for the State: UNCONFIGURED
+*Debug 10/03 17:28:02.803 Test Controller : TEST CONTROLLER: Clearing all Stat Plugins map.
+*Debug 10/03 17:28:02.803 Test Controller : clearStatPlugins(): Successfully CLEARED all the statistics plugins.
+*Debug 10/03 17:28:02.803 Test Controller : set resultFolderCreatedAtApplyConfig to False
+*Debug 10/03 17:28:02.803 Test Controller: Disconnecting from the stat-engine
+*Debug 10/03 17:28:02.811 Stat Controller: STAT CONTROLLER: disconnectFromAllSources()
+*Debug 10/03 17:28:02.811 Stat Controller: disconnectFromAllSources[618185680]: Disconnecting from []
+*Debug 10/03 17:28:02.811 Stat Controller: disconnectFromAllSources[618185680]: Done!
+*Debug 10/03 17:28:02.811 Stat Controller: Resetting stat threads
+*Debug 10/03 17:28:02.812 IxAnalyzer : Analyzer - set test state - 0
+*Debug 10/03 17:28:02.834 Test Controller: ***********************PUBLISHING STATE CHANGE EVENT***********************
+  PUBLISHER MODULE: Test Controller, TEST NAME: Test1, PREV STATE: 'TestController: CLEANING', EVENT RECEIVED:  TestController: StackManager config removed
+  NEW STATE: 'TestController: UNCONFIGURED', DESCRIPTION: None, DETAILS: None, STATUS: None
+*Debug 10/03 17:28:02.834 Test Controller: Fetching the next event from the queue
+*Debug 10/03 17:28:02.834 Test Controller: event ID received =  TestController: Create PortWatch
+*Debug 10/03 17:28:02.834 ixFSM:   *** FSM Test Controller: --EVENT RECEIVED--:  TestController: Create PortWatch
+*Debug 10/03 17:28:02.834 ixFSM:   *** FSM Test Controller --EVENT PROCESSED--:  TestController: Create PortWatch
+*Debug 10/03 17:28:02.835 ixFSM:   *** FSM Test Controller --INTERNAL EVENT. STAYING IN STATE--:  TestController: UNCONFIGURED                    
+*Debug 10/03 17:28:03.270 IxAnalyzer : getFilterType(captureSourceId=65538)
+*Debug 10/03 17:28:03.273 IxAnalyzer : Analyzer - RemoveCaptureSource(sourceId=65538)...
+*Debug 10/03 17:28:03.275 IxAnalyzer : Analyzer - RemoveCaptureSource() returned: 713703928
+*Debug 10/03 17:28:03.275 IxAnalyzer : Analyzer - RemoveGroup(65537)...
+*Debug 10/03 17:28:03.276 IxAnalyzer : Analyzer - RemoveGroup() returned: 0

@@ -1,0 +1,1 @@
+﻿Server=RedHat,ImageName=vyos_dhcp_1.qcow2,DiskFormat=qcow2,ImageFilepath=c:xampphtdocsVNFXchange,ContainerFormat=bare,flavourfilename=Vyos_small
